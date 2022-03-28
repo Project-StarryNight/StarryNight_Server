@@ -1,0 +1,48 @@
+{
+	title: "{snp.quests.6c2cdd15.title}",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 6s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -2.5d,
+	y: 5.0d,
+	description: "{snp.quests.6c2cdd15.description}",
+	text: [
+		"{snp.quests.6c2cdd15.text.1}",
+		"{snp.quests.6c2cdd15.text.2}"
+	],
+	tasks: [{
+		uid: "b8c9f444",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "d22025d1",
+		type: "item",
+		item: "gregtech:meta_tool_head_hammer 1 276"
+	}]
+}

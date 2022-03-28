@@ -1,0 +1,35 @@
+{
+	title: "{snp.quests.bc664fc7.title}",
+	x: 2.0d,
+	y: -1.5d,
+	description: "{snp.quests.bc664fc7.description}",
+	text: [
+		"{snp.quests.bc664fc7.text.1}",
+		"{snp.quests.bc664fc7.text.2}",
+		"{snp.quests.bc664fc7.text.3}",
+		"{snp.quests.bc664fc7.text.4}",
+		"{snp.quests.bc664fc7.text.5}"
+	],
+	dependencies: [
+		"9a52d189"
+	],
+	tasks: [{
+		uid: "07a722d7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
+		}]
+	},
+	{
+		uid: "ae45f671",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser_lattice"
+		}]
+	}],
+	rewards: [{
+		uid: "e8f4542b",
+		type: "item",
+		item: "thaumcraft:filter"
+	}]
+}

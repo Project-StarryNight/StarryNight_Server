@@ -1,0 +1,7 @@
+{
+	title: "{snp.quests.f24b26e3.title}",
+	icon: "appliedenergistics2:controller",
+	always_invisible: false,
+	group: 370437043,
+	default_quest_shape: ""
+}

@@ -1,0 +1,27 @@
+{
+	title: "{snp.quests.8a17359d.title}",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 0.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "{snp.quests.8a17359d.description}",
+	text: [
+		"{snp.quests.8a17359d.text.1}",
+		"{snp.quests.8a17359d.text.2}",
+		"{snp.quests.8a17359d.text.3}",
+		"{snp.quests.8a17359d.text.4}"
+	],
+	dependencies: [
+		"1f3504d7"
+	],
+	tasks: [{
+		uid: "e7341dad",
+		type: "checkmark"
+	}]
+}

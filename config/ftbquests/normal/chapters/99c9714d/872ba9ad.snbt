@@ -1,0 +1,18 @@
+{
+	title: "{snp.quests.872ba9ad.title}",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -2.5d,
+	y: 7.5d,
+	shape: "diamond",
+	custom_click: "https://www.mcmod.cn/class/5343.html",
+	dependencies: [
+		"edb9d3c1"
+	],
+	dependency_requirement: "all_started"
+}

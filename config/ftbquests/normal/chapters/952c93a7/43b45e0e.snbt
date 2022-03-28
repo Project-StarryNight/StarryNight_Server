@@ -1,0 +1,30 @@
+{
+	title: "{snp.quests.43b45e0e.title}",
+	x: -2.5d,
+	y: 7.5d,
+	description: "{snp.quests.43b45e0e.description}",
+	text: [
+		"{snp.quests.43b45e0e.text.1}",
+		"{snp.quests.43b45e0e.text.2}"
+	],
+	dependencies: [
+		"6c2cdd15"
+	],
+	tasks: [{
+		uid: "53765d92",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 51"
+		}],
+		count: 8L,
+		consume_items: false,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "9b541531",
+		type: "item",
+		item: "gregtech:meta_crushed 1 51",
+		count: 16,
+		random_bonus: 32
+	}]
+}

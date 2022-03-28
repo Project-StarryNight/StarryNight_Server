@@ -1,0 +1,25 @@
+{
+	title: "{snp.quests.b792da7b.title}",
+	x: 9.0d,
+	y: 12.0d,
+	shape: "pentagon",
+	description: "{snp.quests.b792da7b.description}",
+	text: [
+		"{snp.quests.b792da7b.text.1}",
+		"{snp.quests.b792da7b.text.2}"
+	],
+	dependencies: [
+		"d7ebef16",
+		"3b36b113",
+		"5e18196e"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "e72aeeed",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}],
+		count: 2L
+	}]
+}

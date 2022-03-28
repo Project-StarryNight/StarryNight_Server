@@ -1,0 +1,42 @@
+#当前文件为定义格式的基础文件
+world:
+  #文本 支持PAPI变量
+  text: '&3%player_world%'
+  #悬浮提示 支持PAPI
+  tip: 
+  - '&6当前所在位置:'
+  - '&6世界: &d%player_world%'
+  - '&6坐标: &aX:%player_x% Y: %player_y% Z: %player_z%'
+  - ''
+  - '&c点击即可TP我!'
+  #点击操作
+  click:
+    #操作类型: [COMMAND,SUGGEST,OPENURL] 
+    #COMMAND代表执行命令
+    #SUGGEST代表命令补全
+    #OPENURL代表打开网址
+    type: 'COMMAND'
+    #命令或网址 支持PAPI
+    command: '/tpa %player_name%'
+player: 
+  text: '&b%player_name%'
+  tip: 
+  - '&6玩家名称: &b%player_name%'
+  - '&6玩家等级: &a%player_level%'
+  - '&6玩家血量: &c%player_health%'
+  - '&6玩家饥饿: &d%player_food_level%'
+  - '&6游戏模式: &4%player_gamemode%'
+  - ''
+  - '&c点击与我聊天'
+  click: 
+    type: 'SUGGEST'
+    command: '/tell %player_name%'
+admin:
+  text: '&6[&c管理员&6]'
+help:
+  text: '&4[求助]'
+  tip: 
+  - '点击求助OP'
+  click: 
+    type: 'COMMAND'
+    command: '管理员@%player_name% 我需要你的帮助!'

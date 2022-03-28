@@ -1,0 +1,17 @@
+{
+	title: "{snp.quests.dfca7883.title}",
+	x: -6.5d,
+	y: 0.5d,
+	description: "{snp.quests.dfca7883.description}",
+	dependencies: [
+		"13b12bd5",
+		"4e610f16"
+	],
+	tasks: [{
+		uid: "9d38aa1f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}]
+	}]
+}

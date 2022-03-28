@@ -1,0 +1,7 @@
+{
+	title: "{snp.quests.fa2cd77f.title}",
+	icon: "enderio:item_liquid_conduit 1 2",
+	always_invisible: false,
+	group: 370437043,
+	default_quest_shape: ""
+}

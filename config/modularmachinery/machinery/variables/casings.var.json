@@ -1,0 +1,78 @@
+{
+    "casings_all": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyoutputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_decorative": [
+        "modularmachinery:blockcasing"
+    ],
+    "casings_fluid": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_energy": [
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockenergyoutputhatch"
+    ],
+    "casings_item": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    "energy_input_lv": [
+        "modularmachinery:blockenergyinputhatch@0"
+    ],
+    "energy_input_mv": [
+        "modularmachinery:blockenergyinputhatch@1",
+        "modularmachinery:blockenergyinputhatch@2",
+        "modularmachinery:blockenergyinputhatch@3",
+        "modularmachinery:blockenergyinputhatch@4",
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_hv": [
+        "modularmachinery:blockenergyinputhatch@2",
+        "modularmachinery:blockenergyinputhatch@3",
+        "modularmachinery:blockenergyinputhatch@4",
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_ev": [
+        "modularmachinery:blockenergyinputhatch@3",
+        "modularmachinery:blockenergyinputhatch@4",
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_iv": [
+        "modularmachinery:blockenergyinputhatch@4",
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_luv_zpm": [
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_uv": [
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ],
+    "energy_input_uhv": [
+        "modularmachinery:blockenergyinputhatch@7",
+        "gugu-utils:energyoutputport"
+    ]
+}

@@ -1,0 +1,37 @@
+#配置文件版本号 请勿修改
+Version: 1.8.5
+
+#BC跨服模式
+BungeeCord: true
+#当前服务器名称(变量为%mct_server%)
+Server: '§aSNP Server'
+#格式列表
+Formats:
+  #格式名称
+  default: 
+    #优先级(将按照从小到大依次检测 比如 1-50 优先检测 1 符合则显示 不符合 检测 2 ...)
+    index: 50
+    #权限
+    permission: 'MiaoChat.default'
+    #范围(0为无限制)
+    range: 0
+    #聊天格式([xxx]会调用format.yml下的对应格式)
+    format: '[world] &c%player_health_rounded% ❤%vault_prefix%[player]: '
+    #解析物品(%i=>手上物品,%0-9快捷栏对应物品)
+    item: true
+    #物品解析规则
+    itemformat: '&6[&b%s&6]&r'
+  #格式名称
+  admin: 
+    #优先级(将按照从小到大依次检测 比如 1-50 优先检测 1 符合则显示 不符合 检测 2 ...)
+    index: 49
+    #权限
+    permission: 'MiaoChat.admin'
+    #聊天格式([xxx]会调用format.yml下的对应格式)
+    format: '[admin][world][player][help]: '
+    #范围(0为无限制)
+    range: 0
+    #解析物品(%i=>手上物品,%0-9快捷栏对应物品)
+    item: true
+    #物品解析规则
+    itemformat: '&6[&b%s&6]&r'

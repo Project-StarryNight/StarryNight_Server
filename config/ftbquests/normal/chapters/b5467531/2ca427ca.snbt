@@ -1,0 +1,25 @@
+{
+	title: "{snp.quests.2ca427ca.title}",
+	x: -10.0d,
+	y: 0.5d,
+	shape: "gear",
+	description: "{snp.quests.2ca427ca.description}",
+	dependencies: [
+		"5b347b49"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0c3efcd5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 988"
+		}]
+	}],
+	rewards: [{
+		uid: "a58d713d",
+		type: "item",
+		item: "gregtech:meta_dust 1 323",
+		count: 16,
+		random_bonus: 16
+	}]
+}

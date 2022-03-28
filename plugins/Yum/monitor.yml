@@ -1,0 +1,16 @@
+# ## 能耗监控系统配置文件
+# ###########################
+# 配置版本号 请勿修改!!!
+Version: 1.4
+# 是否开启
+Enable: false
+# 是否显示开发人员信息
+Debug: false
+# 是否保存Lag日志到文件
+LogToFile: false
+# 忽略检测列表
+Ignore:
+- PluginHelper
+# 忽略报错的插件列表
+IgnoreError:
+- PluginHelper

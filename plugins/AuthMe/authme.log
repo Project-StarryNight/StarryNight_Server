@@ -1,0 +1,2325 @@
+[10-26 08:47:07]: [INFO] Created column 'regdate' and set the current timestamp, 1635209227679, to all 0 rows
+[10-26 08:47:08]: [INFO] SQLite Setup finished
+[10-26 08:47:08]: [INFO] Hooked into LuckPerms!
+[10-26 08:47:09]: [INFO] Hooked successfully into Multiverse-Core
+[10-26 08:47:10]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-26 08:47:18]: [INFO] Hooked successfully into CMI
+[10-26 08:47:24]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-26 08:47:24]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-26 08:47:24]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-26 08:47:24]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-26 08:47:24]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-26 09:28:50]: [INFO] CMI has been disabled: unhooking
+[10-26 09:28:50]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-26 09:34:17]: [INFO] SQLite Setup finished
+[10-26 09:34:17]: [INFO] Hooked into LuckPerms!
+[10-26 09:34:17]: [INFO] Hooked successfully into Multiverse-Core
+[10-26 09:34:18]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-26 09:34:26]: [INFO] Hooked successfully into CMI
+[10-26 09:34:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-26 09:34:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-26 09:34:32]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-26 09:34:32]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-26 09:34:32]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-26 09:37:57]: [FINE] Gnar233 registered 183.165.152.139
+[10-26 09:37:57]: [FINE] Gnar233 logged in 183.165.152.139
+[10-26 09:50:40]: [FINE] XiaoMie_ registered 183.165.152.139
+[10-26 09:50:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[10-26 09:50:41]: [FINE] §7gnar233, §aXiaoMie_§7.
+[10-26 09:50:41]: [FINE] XiaoMie_ logged in 183.165.152.139
+[10-26 10:16:43]: [FINE] The user Gnar233 has 2 accounts:
+[10-26 10:16:43]: [FINE] §7§aGnar233§7, xiaomie_.
+[10-26 10:16:43]: [FINE] Gnar233 logged in 183.165.152.139
+[10-26 12:26:09]: [INFO] CMI has been disabled: unhooking
+[10-26 12:26:09]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-26 12:29:17]: [INFO] SQLite Setup finished
+[10-26 12:29:17]: [INFO] Hooked into LuckPerms!
+[10-26 12:29:17]: [INFO] Hooked successfully into Multiverse-Core
+[10-26 12:29:18]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-26 12:29:27]: [INFO] Hooked successfully into CMI
+[10-26 12:29:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-26 12:29:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-26 12:29:32]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-26 12:29:32]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-26 12:29:32]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-26 17:26:35]: [FINE] XiaoMie_ used the wrong password
+[10-26 17:28:03]: [FINE] XiaoMie_ logged in 157.122.64.100
+[10-26 19:17:54]: [FINE] Gnar233 logged in 183.165.152.139
+[10-26 19:21:17]: [INFO] CMI has been disabled: unhooking
+[10-26 19:21:17]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-26 19:26:39]: [INFO] SQLite Setup finished
+[10-26 19:26:39]: [INFO] Hooked into LuckPerms!
+[10-26 19:26:39]: [INFO] Hooked successfully into Multiverse-Core
+[10-26 19:26:40]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-26 19:26:48]: [INFO] Hooked successfully into CMI
+[10-26 19:26:54]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-26 19:26:54]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-26 19:26:54]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-26 19:26:54]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-26 19:26:54]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-26 19:27:24]: [FINE] XiaoMie_ logged in 157.122.64.100
+[10-26 19:27:42]: [FINE] Gnar233 logged in 183.165.152.139
+[10-26 21:29:50]: [FINE] Gnar233 logged in 183.165.152.139
+[10-27 09:01:11]: [FINE] Gnar233 logged in 223.242.250.37
+[10-27 12:15:09]: [FINE] Gnar233 logged in 223.242.250.37
+[10-27 12:43:16]: [FINE] Gnar233 logged in 223.242.250.37
+[10-27 13:40:20]: [FINE] XiaoMie_ logged in 113.78.66.73
+[10-27 19:22:41]: [FINE] Gnar233 logged in 223.242.250.37
+[10-28 09:20:21]: [FINE] Gnar233 logged in 223.242.250.37
+[10-28 09:25:06]: [FINE] Gnar233 logged in 223.242.250.37
+[10-28 12:00:31]: [INFO] CMI has been disabled: unhooking
+[10-28 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-28 12:03:46]: [INFO] SQLite Setup finished
+[10-28 12:03:46]: [INFO] Hooked into LuckPerms!
+[10-28 12:03:46]: [INFO] Hooked successfully into Multiverse-Core
+[10-28 12:03:47]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-28 12:03:58]: [INFO] Hooked successfully into CMI
+[10-28 12:04:05]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-28 12:04:05]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-28 12:04:05]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-28 12:04:05]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-28 12:04:05]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-28 19:10:22]: [FINE] Gnar233 logged in 223.242.250.37
+[10-28 19:58:41]: [FINE] XiaoMie_ logged in 157.122.64.100
+[10-28 22:12:23]: [INFO] SQLite Setup finished
+[10-28 22:12:23]: [INFO] Hooked into LuckPerms!
+[10-28 22:12:23]: [INFO] Hooked successfully into Multiverse-Core
+[10-28 22:12:24]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-28 22:12:35]: [INFO] Hooked successfully into CMI
+[10-28 22:12:42]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-28 22:12:42]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-28 22:12:42]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-28 22:12:42]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-28 22:12:42]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-28 22:13:39]: [FINE] Gnar233 logged in 223.242.250.37
+[10-29 10:32:53]: [FINE] Gnar233 logged in 183.165.152.31
+[10-29 12:27:33]: [FINE] Gnar233 logged in 183.165.152.31
+[10-29 20:59:44]: [FINE] Doogle007 registered 112.32.8.25
+[10-29 20:59:44]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 21:04:51]: [INFO] CMI has been disabled: unhooking
+[10-29 21:04:51]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-29 21:09:00]: [INFO] SQLite Setup finished
+[10-29 21:09:00]: [INFO] Hooked into LuckPerms!
+[10-29 21:09:01]: [INFO] Hooked successfully into Multiverse-Core
+[10-29 21:09:01]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-29 21:09:13]: [INFO] Hooked successfully into CMI
+[10-29 21:09:20]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-29 21:09:20]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-29 21:09:20]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-29 21:09:20]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-29 21:09:20]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-29 21:10:56]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 21:17:24]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 21:29:25]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 21:51:02]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 21:52:05]: [FINE] XiaoMie_ logged in 116.18.228.85
+[10-29 21:56:29]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 22:01:54]: [INFO] CMI has been disabled: unhooking
+[10-29 22:01:54]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-29 22:05:27]: [INFO] SQLite Setup finished
+[10-29 22:05:27]: [INFO] Hooked into LuckPerms!
+[10-29 22:05:28]: [INFO] Hooked successfully into Multiverse-Core
+[10-29 22:05:28]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-29 22:05:40]: [INFO] Hooked successfully into CMI
+[10-29 22:05:47]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-29 22:05:47]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-29 22:05:47]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-29 22:05:47]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-29 22:05:47]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-29 22:07:18]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 22:09:42]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 22:31:19]: [INFO] SQLite Setup finished
+[10-29 22:31:19]: [INFO] Hooked into LuckPerms!
+[10-29 22:31:19]: [INFO] Hooked successfully into Multiverse-Core
+[10-29 22:31:20]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-29 22:31:27]: [INFO] Hooked successfully into CMI
+[10-29 22:31:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-29 22:31:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-29 22:31:33]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-29 22:31:33]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-29 22:31:33]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-29 22:43:23]: [INFO] SQLite Setup finished
+[10-29 22:43:23]: [INFO] Hooked into LuckPerms!
+[10-29 22:43:23]: [INFO] Hooked successfully into Multiverse-Core
+[10-29 22:43:24]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-29 22:43:32]: [INFO] Hooked successfully into CMI
+[10-29 22:43:37]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-29 22:43:37]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-29 22:43:37]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-29 22:43:37]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-29 22:43:37]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-29 22:44:51]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 22:52:23]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 23:55:42]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 23:57:37]: [FINE] Doogle007 logged in 112.32.8.25
+[10-29 23:59:01]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:04:40]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:06:31]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:11:12]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:18:46]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:20:54]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:34:37]: [FINE] Doogle registered 112.32.8.25
+[10-30 00:34:37]: [FINE] The user Doogle has 2 accounts:
+[10-30 00:34:37]: [FINE] §7doogle007, §aDoogle§7.
+[10-30 00:34:37]: [FINE] Doogle logged in 112.32.8.25
+[10-30 00:50:31]: [FINE] The user Doogle007 has 2 accounts:
+[10-30 00:50:31]: [FINE] §7§aDoogle007§7, doogle.
+[10-30 00:50:31]: [FINE] Doogle007 logged in 112.32.8.25
+[10-30 00:58:14]: [FINE] The user Doogle has 2 accounts:
+[10-30 00:58:14]: [FINE] §7doogle007, §aDoogle§7.
+[10-30 00:58:14]: [FINE] Doogle logged in 112.32.8.25
+[10-30 07:25:18]: [FINE] The user Doogle has 2 accounts:
+[10-30 07:25:18]: [FINE] §7doogle007, §aDoogle§7.
+[10-30 07:25:18]: [FINE] Doogle logged in 112.32.8.25
+[10-30 11:47:31]: [FINE] Gnar233 logged in 183.165.152.31
+[10-30 11:57:08]: [FINE] Doogle logged in 112.32.12.95
+[10-30 12:00:31]: [INFO] CMI has been disabled: unhooking
+[10-30 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[10-30 12:03:45]: [INFO] SQLite Setup finished
+[10-30 12:03:45]: [INFO] Hooked into LuckPerms!
+[10-30 12:03:45]: [INFO] Hooked successfully into Multiverse-Core
+[10-30 12:03:46]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[10-30 12:03:58]: [INFO] Hooked successfully into CMI
+[10-30 12:04:06]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10-30 12:04:06]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10-30 12:04:06]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10-30 12:04:06]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[10-30 12:04:06]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[10-30 12:04:21]: [FINE] Gnar233 logged in 183.165.152.31
+[10-30 12:05:13]: [FINE] Doogle logged in 112.32.12.95
+[10-30 12:06:32]: [FINE] SugarWu registered 111.182.99.242
+[10-30 12:06:32]: [FINE] SugarWu logged in 111.182.99.242
+[10-30 19:10:33]: [FINE] Gnar233 logged in 183.165.152.31
+[10-30 21:39:04]: [FINE] Gnar233 logged in 183.165.152.31
+[10-30 21:40:00]: [FINE] XiaoMie_ logged in 157.122.64.100
+[10-30 22:25:06]: [FINE] Gnar233 logged in 183.165.152.31
+[10-31 09:47:59]: [FINE] Gnar233 logged in 223.242.251.195
+[10-31 12:21:58]: [FINE] Gnar233 logged in 223.242.251.195
+[11-01 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-01 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-01 12:04:23]: [INFO] SQLite Setup finished
+[11-01 12:04:23]: [INFO] Hooked into LuckPerms!
+[11-01 12:04:23]: [INFO] Hooked successfully into Multiverse-Core
+[11-01 12:04:23]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-01 12:04:35]: [INFO] Hooked successfully into CMI
+[11-01 12:04:43]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-01 12:04:43]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-01 12:04:43]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-01 12:04:43]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-01 12:04:43]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-01 16:17:48]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-01 18:21:35]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-01 19:33:25]: [FINE] Gnar233 logged in 223.242.251.195
+[11-02 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-02 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-02 12:04:02]: [INFO] SQLite Setup finished
+[11-02 12:04:02]: [INFO] Hooked into LuckPerms!
+[11-02 12:04:02]: [INFO] Hooked successfully into Multiverse-Core
+[11-02 12:04:03]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-02 12:04:14]: [INFO] Hooked successfully into CMI
+[11-02 12:04:23]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-02 12:04:23]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-02 12:04:23]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-02 12:04:23]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-02 12:04:23]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-02 17:56:03]: [INFO] SQLite Setup finished
+[11-02 17:56:03]: [INFO] Hooked into LuckPerms!
+[11-02 17:56:04]: [INFO] Hooked successfully into Multiverse-Core
+[11-02 17:56:04]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-02 17:56:18]: [INFO] Hooked successfully into CMI
+[11-02 17:56:26]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-02 17:56:26]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-02 17:56:26]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-02 17:56:26]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-02 17:56:26]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-02 21:37:56]: [FINE] Gnar233 logged in 183.165.151.206
+[11-02 21:55:40]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-03 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-03 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-03 12:03:30]: [INFO] SQLite Setup finished
+[11-03 12:03:30]: [INFO] Hooked into LuckPerms!
+[11-03 12:03:30]: [INFO] Hooked successfully into Multiverse-Core
+[11-03 12:03:31]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-03 12:03:39]: [INFO] Hooked successfully into CMI
+[11-03 12:03:45]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-03 12:03:45]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-03 12:03:45]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-03 12:03:45]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-03 12:03:45]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-04 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-04 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-04 12:04:33]: [INFO] SQLite Setup finished
+[11-04 12:04:33]: [INFO] Hooked into LuckPerms!
+[11-04 12:04:33]: [INFO] Hooked successfully into Multiverse-Core
+[11-04 12:04:34]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-04 12:04:44]: [INFO] Hooked successfully into CMI
+[11-04 12:04:52]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-04 12:04:52]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-04 12:04:52]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-04 12:04:52]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-04 12:04:52]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-05 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-05 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-05 12:03:49]: [INFO] SQLite Setup finished
+[11-05 12:03:49]: [INFO] Hooked into LuckPerms!
+[11-05 12:03:49]: [INFO] Hooked successfully into Multiverse-Core
+[11-05 12:03:50]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-05 12:04:02]: [INFO] Hooked successfully into CMI
+[11-05 12:04:10]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-05 12:04:10]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-05 12:04:10]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-05 12:04:10]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-05 12:04:10]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[11-05 15:23:48]: [INFO] CMI has been disabled: unhooking
+[11-05 15:23:48]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-05 15:51:25]: [INFO] SQLite Setup finished
+[11-05 15:51:26]: [INFO] Hooked into LuckPerms!
+[11-05 15:51:26]: [INFO] Hooked successfully into Multiverse-Core
+[11-05 15:51:27]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-05 15:51:58]: [INFO] Hooked successfully into CMI
+[11-05 15:52:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-05 15:52:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-05 15:52:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-05 15:52:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-05 15:52:03]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-05 16:00:33]: [FINE] Kasumi_Nova registered 112.111.202.64
+[11-05 16:00:33]: [FINE] Kasumi_Nova logged in 112.111.202.64
+[11-05 16:01:29]: [INFO] Unhooked from Permissions!
+[11-05 16:01:29]: [INFO] Hooked into LuckPerms!
+[11-05 16:01:29]: [INFO] SQLite Setup finished
+[11-05 16:16:32]: [FINE] Kasumi_Nova logged in 112.111.202.64
+[11-05 16:35:51]: [FINE] Kasumi_Nova logged in 112.111.202.64
+[11-05 18:34:08]: [FINE] GMLG_xiaobei registered 183.216.151.102
+[11-05 18:34:08]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-05 18:55:59]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-05 19:11:06]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-05 19:20:15]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-05 19:47:33]: [FINE] lere registered 113.12.255.241
+[11-05 19:47:33]: [FINE] lere logged in 113.12.255.241
+[11-06 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-06 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-06 12:05:12]: [INFO] SQLite Setup finished
+[11-06 12:05:12]: [INFO] Hooked into LuckPerms!
+[11-06 12:05:13]: [INFO] Hooked successfully into Multiverse-Core
+[11-06 12:05:14]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-06 12:05:45]: [INFO] Hooked successfully into CMI
+[11-06 12:05:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-06 12:05:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-06 12:05:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-06 12:05:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-06 12:05:50]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-06 19:33:19]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 09:11:32]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 11:05:54]: [FINE] zhuzhu_boy registered 112.21.139.85
+[11-07 11:05:54]: [FINE] zhuzhu_boy logged in 112.21.139.85
+[11-07 11:38:35]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 12:00:36]: [INFO] CMI has been disabled: unhooking
+[11-07 12:00:37]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-07 12:04:23]: [INFO] SQLite Setup finished
+[11-07 12:04:24]: [INFO] Hooked into LuckPerms!
+[11-07 12:04:24]: [INFO] Hooked successfully into Multiverse-Core
+[11-07 12:04:25]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-07 12:04:58]: [INFO] Hooked successfully into CMI
+[11-07 12:05:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-07 12:05:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-07 12:05:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-07 12:05:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-07 12:05:03]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-07 12:06:32]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 12:23:36]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 12:58:04]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 13:00:24]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 13:25:34]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 14:35:50]: [FINE] DG_Shen registered 112.49.83.191
+[11-07 14:35:50]: [FINE] DG_Shen logged in 112.49.83.191
+[11-07 14:37:41]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-07 14:45:29]: [FINE] Mr_6666 registered 221.208.248.18
+[11-07 14:45:29]: [FINE] Mr_6666 logged in 221.208.248.18
+[11-07 14:45:38]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 14:46:36]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-07 15:33:26]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 16:00:00]: [FINE] Doogle007 logged in 112.32.12.143
+[11-07 17:24:12]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 20:26:13]: [FINE] Gnar233 logged in 218.23.204.104
+[11-07 20:39:10]: [FINE] zhuzhu_boy logged in 49.93.7.49
+[11-07 21:19:25]: [FINE] zhuzhu_boy logged in 49.93.7.49
+[11-07 21:20:00]: [FINE] Mr_6666 logged in 112.103.254.89
+[11-07 21:49:17]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-08 00:15:24]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-08 00:33:18]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-08 00:57:23]: [FINE] Gnar233 logged in 218.23.204.104
+[11-08 07:58:19]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-08 08:33:33]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-08 09:00:06]: [FINE] Mr_6666 logged in 112.103.254.89
+[11-08 12:00:35]: [INFO] CMI has been disabled: unhooking
+[11-08 12:00:36]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-08 12:06:36]: [INFO] SQLite Setup finished
+[11-08 12:06:37]: [INFO] Hooked into LuckPerms!
+[11-08 12:06:37]: [INFO] Hooked successfully into Multiverse-Core
+[11-08 12:06:38]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-08 12:07:09]: [INFO] Hooked successfully into CMI
+[11-08 12:07:14]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-08 12:07:14]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-08 12:07:14]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-08 12:07:14]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-08 12:07:14]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-08 12:08:14]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-08 12:48:22]: [FINE] Gnar233 logged in 183.165.151.193
+[11-08 14:20:20]: [FINE] Gnar233 logged in 183.165.151.193
+[11-08 14:29:55]: [FINE] Yuzza registered 111.44.169.98
+[11-08 14:29:55]: [FINE] Yuzza logged in 111.44.169.98
+[11-08 14:36:17]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-08 14:40:08]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-08 14:51:29]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-08 15:13:09]: [FINE] Mr_6666 logged in 112.103.254.89
+[11-08 15:55:21]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-08 20:27:51]: [FINE] Mr_6666 logged in 112.103.254.94
+[11-08 20:29:05]: [FINE] zhuzhu_boy logged in 114.226.47.142
+[11-09 00:11:38]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-09 00:12:27]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 00:24:12]: [FINE] SugarWu logged in 111.182.100.99
+[11-09 01:25:50]: [FINE] A_mi_ya registered 120.239.176.202
+[11-09 01:25:50]: [FINE] A_mi_ya logged in 120.239.176.202
+[11-09 09:46:39]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 10:17:40]: [FINE] Yuzza logged in 111.44.166.139
+[11-09 11:31:24]: [FINE] Yuzza logged in 111.44.166.139
+[11-09 11:51:12]: [FINE] Yuzza logged in 111.44.166.139
+[11-09 12:00:37]: [INFO] CMI has been disabled: unhooking
+[11-09 12:00:37]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-09 12:05:17]: [INFO] SQLite Setup finished
+[11-09 12:05:18]: [INFO] Hooked into LuckPerms!
+[11-09 12:05:18]: [INFO] Hooked successfully into Multiverse-Core
+[11-09 12:05:19]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-09 12:05:55]: [INFO] Hooked successfully into CMI
+[11-09 12:06:01]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-09 12:06:01]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-09 12:06:01]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-09 12:06:02]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-09 12:06:02]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-09 12:10:07]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 12:27:10]: [FINE] Yuzza logged in 111.44.166.139
+[11-09 12:46:12]: [FINE] Yuzza logged in 111.44.150.93
+[11-09 15:01:42]: [FINE] Yuzza logged in 111.44.150.93
+[11-09 15:09:12]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 15:28:24]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 16:12:06]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-09 16:24:42]: [FINE] Yuzza logged in 111.44.150.93
+[11-09 20:03:59]: [FINE] Gnar233 logged in 183.165.151.193
+[11-09 22:02:29]: [FINE] Gnar233 logged in 183.165.151.193
+[11-09 23:02:23]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-10 00:15:16]: [FINE] GMLG_xiaobei logged in 183.216.151.102
+[11-10 13:25:56]: [INFO] SQLite Setup finished
+[11-10 13:25:57]: [INFO] Hooked into LuckPerms!
+[11-10 13:25:57]: [INFO] Hooked successfully into Multiverse-Core
+[11-10 13:25:58]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-10 13:26:29]: [INFO] Hooked successfully into CMI
+[11-10 13:26:33]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-10 13:26:33]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-10 13:26:33]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-10 13:26:33]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-10 13:26:33]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-10 14:32:43]: [FINE] Yuzza logged in 111.44.150.93
+[11-10 15:03:36]: [FINE] Gnar233 logged in 183.165.151.181
+[11-10 15:37:57]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-10 16:05:12]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-10 16:39:29]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-10 21:05:37]: [FINE] Gnar233 logged in 183.165.151.181
+[11-10 23:23:06]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-11 09:45:39]: [FINE] Gnar233 logged in 183.165.151.181
+[11-11 12:00:37]: [INFO] CMI has been disabled: unhooking
+[11-11 12:00:37]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-11 12:04:28]: [INFO] SQLite Setup finished
+[11-11 12:04:29]: [INFO] Hooked into LuckPerms!
+[11-11 12:04:29]: [INFO] Hooked successfully into Multiverse-Core
+[11-11 12:04:30]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-11 12:05:02]: [INFO] Hooked successfully into CMI
+[11-11 12:05:06]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-11 12:05:06]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-11 12:05:06]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-11 12:05:07]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-11 12:05:07]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-11 12:05:16]: [FINE] Gnar233 logged in 183.165.151.181
+[11-11 12:28:25]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-11 14:48:22]: [FINE] Yuzza logged in 111.44.169.15
+[11-11 15:30:21]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-11 18:33:10]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:33:10]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:33:10]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 18:36:39]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:36:39]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:36:39]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 18:42:12]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:42:12]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:42:12]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 18:43:42]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:43:42]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:43:42]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 18:51:23]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:51:23]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:51:23]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 18:55:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 18:55:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 18:55:48]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:04:09]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:04:09]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:04:09]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:13:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:13:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:13:47]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:23:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:23:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:23:27]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:41:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:41:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:41:04]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:50:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:50:41]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:50:41]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:57:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:57:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:57:44]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:58:40]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:58:40]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:58:40]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 19:59:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 19:59:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 19:59:44]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:05:45]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:05:45]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:05:45]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:07:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:07:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:07:48]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:43:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:43:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:43:54]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:46:17]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:46:17]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:46:17]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:47:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:47:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:47:19]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:48:36]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:48:36]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:48:36]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:50:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:50:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:50:13]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:51:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:51:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:51:19]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 20:52:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 20:52:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 20:52:29]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 21:28:37]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 21:28:37]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 21:28:37]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 21:33:51]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 21:33:51]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 21:33:51]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 21:35:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 21:35:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 21:35:24]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 21:37:06]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 21:37:06]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 21:37:06]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:08:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:08:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:08:55]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:10:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:10:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:10:29]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:11:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:11:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:11:33]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:12:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:12:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:12:35]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:14:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:14:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:14:07]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 22:15:52]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 22:15:52]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 22:15:52]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 23:23:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-11 23:23:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-11 23:23:19]: [FINE] XiaoMie_ logged in 183.165.151.181
+[11-11 23:24:22]: [FINE] XiaoMie_ logged in 157.122.64.100
+[11-12 00:57:52]: [FINE] Gnar233 logged in 183.165.151.181
+[11-12 08:12:24]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:31:37]: [FINE] The user Gnar233 has 2 accounts:
+[11-12 08:31:37]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:31:37]: [FINE] Gnar233 logged in 183.166.64.208
+[11-12 08:35:20]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:35:20]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:35:20]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:36:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:36:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:36:46]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:38:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:38:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:38:24]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:40:14]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:40:14]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:40:14]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:43:21]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:43:21]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:43:21]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:45:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:45:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:45:13]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:46:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:46:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:46:38]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:47:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:47:41]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:47:41]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:48:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:48:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:48:38]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:49:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:49:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:49:55]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:50:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:50:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:50:58]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:52:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:52:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:52:13]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:53:16]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:53:16]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:53:16]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:54:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:54:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:54:30]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 08:55:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 08:55:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 08:55:43]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 09:39:49]: [FINE] Yuzza logged in 111.44.169.15
+[11-12 10:44:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:44:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:44:07]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:45:28]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:45:28]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:45:28]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:46:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:46:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:46:55]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:48:34]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:48:34]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:48:34]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:49:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:49:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:49:47]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:50:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:50:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:50:48]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 10:52:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 10:52:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 10:52:08]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 11:01:38]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-12 12:00:36]: [INFO] CMI has been disabled: unhooking
+[11-12 12:00:36][11-12 12:00:36]: [11-12 12:00:36]: [WARN] Error during SQL operation: [SQLException]: The database has been closed: [11-12 12:00:36]
+[WARN] Error during SQL operation: [SQLException]: The database has been closed: [WARN] Error during SQL operation: [SQLException]: The database has been closed
+
+[WARN] Error during SQL operation: [SQLException]: The database has been closed
+[11-12 12:00:36]: java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:471)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
+	at org.sqlite.core.DB.prepare(DB.java:227)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
+	at fr.xephi.authme.libs.ch.jalu.datasourcecolumns.sqlimplementation.statementgenerator.SingleConnectionPreparedStatementGenerator.createStatement(SingleConnectionPreparedStatementGenerator.java:25)
+	at fr.xephi.authme.libs.ch.jalu.datasourcecolumns.sqlimplementation.SqlColumnsHandler.update(SqlColumnsHandler.java:157)
+	at fr.xephi.authme.datasource.columnshandler.AuthMeColumnsHandler.update(AuthMeColumnsHandler.java:81)
+	at fr.xephi.authme.datasource.AbstractSqlDataSource.setUnlogged(AbstractSqlDataSource.java:133)
+	at fr.xephi.authme.datasource.CacheDataSource.setUnlogged(CacheDataSource.java:218)
+	at fr.xephi.authme.process.quit.AsynchronousQuit.processQuit(AsynchronousQuit.java:100)
+	at fr.xephi.authme.process.Management.lambda$performQuit$7(Management.java:81)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-12 12:00:36]: java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:471)
+	at org.sqlite.core.NativeDB.column_text_utf8(Native Method)
+	at org.sqlite.core.NativeDB.column_text(NativeDB.java:242)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:436)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:443)
+	at fr.xephi.authme.datasource.SQLite.buildAuthFromResultSet(SQLite.java:373)
+	at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:236)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:58)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:55)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+	at com.google.common.cache.LocalCache$Segment.loadAsync(LocalCache.java:2433)
+	at com.google.common.cache.LocalCache$Segment.refresh(LocalCache.java:2508)
+	at com.google.common.cache.LocalCache.refresh(LocalCache.java:4307)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.refresh(LocalCache.java:5166)
+	at fr.xephi.authme.datasource.CacheDataSource.updateSession(CacheDataSource.java:135)
+	at fr.xephi.authme.process.quit.AsynchronousQuit.processQuit(AsynchronousQuit.java:90)
+	at fr.xephi.authme.process.Management.lambda$performQuit$7(Management.java:81)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+		at org.sqlite.core.DB.newSQLException(DB.java:909)
+		at org.sqlite.core.CoreStatement.internalClose(CoreStatement.java:115)
+		at org.sqlite.jdbc3.JDBC3Statement.close(JDBC3Statement.java:35)
+		at org.sqlite.jdbc4.JDBC4Statement.close(JDBC4Statement.java:27)
+		at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:239)
+		... 15 more
+
+[11-12 12:00:36]: java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:471)
+	at org.sqlite.core.NativeDB.column_text_utf8(Native Method)
+	at org.sqlite.core.NativeDB.column_text(NativeDB.java:242)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:436)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:443)
+	at fr.xephi.authme.datasource.SQLite.buildAuthFromResultSet(SQLite.java:373)
+	at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:236)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:58)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:55)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+	at com.google.common.cache.LocalCache$Segment.loadAsync(LocalCache.java:2433)
+	at com.google.common.cache.LocalCache$Segment.refresh(LocalCache.java:2508)
+	at com.google.common.cache.LocalCache.refresh(LocalCache.java:4307)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.refresh(LocalCache.java:5166)
+	at fr.xephi.authme.datasource.CacheDataSource.updateSession(CacheDataSource.java:135)
+	at fr.xephi.authme.process.quit.AsynchronousQuit.processQuit(AsynchronousQuit.java:90)
+	at fr.xephi.authme.process.Management.lambda$performQuit$7(Management.java:81)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+		at org.sqlite.core.DB.newSQLException(DB.java:909)
+		at org.sqlite.core.CoreStatement.internalClose(CoreStatement.java:115)
+		at org.sqlite.jdbc3.JDBC3Statement.close(JDBC3Statement.java:35)
+		at org.sqlite.jdbc4.JDBC4Statement.close(JDBC4Statement.java:27)
+		at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:239)
+		... 15 more
+
+[11-12 12:00:36]: java.sql.SQLException: The database has been closed
+	at org.sqlite.core.NativeDB.throwex(NativeDB.java:471)
+	at org.sqlite.core.NativeDB.column_text_utf8(Native Method)
+	at org.sqlite.core.NativeDB.column_text(NativeDB.java:242)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:436)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:443)
+	at fr.xephi.authme.datasource.SQLite.buildAuthFromResultSet(SQLite.java:375)
+	at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:236)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:58)
+	at fr.xephi.authme.datasource.CacheDataSource$1.load(CacheDataSource.java:55)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+	at com.google.common.cache.LocalCache$Segment.loadAsync(LocalCache.java:2433)
+	at com.google.common.cache.LocalCache$Segment.refresh(LocalCache.java:2508)
+	at com.google.common.cache.LocalCache.refresh(LocalCache.java:4307)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.refresh(LocalCache.java:5166)
+	at fr.xephi.authme.datasource.CacheDataSource.updateSession(CacheDataSource.java:135)
+	at fr.xephi.authme.process.quit.AsynchronousQuit.processQuit(AsynchronousQuit.java:90)
+	at fr.xephi.authme.process.Management.lambda$performQuit$7(Management.java:81)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+		at org.sqlite.core.DB.newSQLException(DB.java:909)
+		at org.sqlite.core.CoreStatement.internalClose(CoreStatement.java:115)
+		at org.sqlite.jdbc3.JDBC3Statement.close(JDBC3Statement.java:35)
+		at org.sqlite.jdbc4.JDBC4Statement.close(JDBC4Statement.java:27)
+		at fr.xephi.authme.datasource.SQLite.getAuth(SQLite.java:239)
+		... 15 more
+
+[11-12 12:00:36]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-12 12:04:12]: [INFO] SQLite Setup finished
+[11-12 12:04:13]: [INFO] Hooked into LuckPerms!
+[11-12 12:04:13]: [INFO] Hooked successfully into Multiverse-Core
+[11-12 12:04:14]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-12 12:04:46]: [INFO] Hooked successfully into CMI
+[11-12 12:04:51]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-12 12:04:51]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-12 12:04:51]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-12 12:04:51]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-12 12:04:51]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-12 12:09:05]: [FINE] Yuzza logged in 111.44.169.15
+[11-12 12:12:53]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-12 12:19:04]: [FINE] The user Gnar233 has 2 accounts:
+[11-12 12:19:04]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-12 12:19:04]: [FINE] Gnar233 logged in 183.166.64.208
+[11-12 16:47:24]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-12 18:40:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:40:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:40:58]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:42:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:42:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:42:47]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:45:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:45:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:45:47]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:46:57]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:46:57]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:46:57]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:48:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:48:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:48:55]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:50:01]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:50:01]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:50:01]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:51:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:51:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:51:35]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:52:45]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:52:45]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:52:45]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 18:54:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 18:54:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 18:54:30]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:07:36]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:07:36]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:07:36]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:09:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:09:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:09:46]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:10:52]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:10:52]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:10:52]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:12:11]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:12:11]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:12:11]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:13:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:13:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:13:29]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:14:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:14:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:14:35]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:16:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:16:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:16:19]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:17:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:17:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:17:38]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:19:49]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:19:49]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:19:49]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:33:30]: [INFO] CMI has been disabled: unhooking
+[11-12 19:33:30]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-12 19:37:49]: [INFO] SQLite Setup finished
+[11-12 19:37:50]: [INFO] Hooked into LuckPerms!
+[11-12 19:37:50]: [INFO] Hooked successfully into Multiverse-Core
+[11-12 19:37:51]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-12 19:38:26]: [INFO] Hooked successfully into CMI
+[11-12 19:38:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-12 19:38:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-12 19:38:32]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-12 19:38:32]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-12 19:38:32]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-12 19:39:11]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 19:39:11]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:39:11]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 19:39:30]: [FINE] The user Gnar233 has 2 accounts:
+[11-12 19:39:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 19:39:30]: [FINE] Gnar233 logged in 183.166.64.208
+[11-12 20:22:17]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:22:17]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:22:17]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:23:34]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:23:34]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:23:34]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:25:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:25:41]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:25:41]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:26:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:26:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:26:43]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:28:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:28:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:28:30]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:30:11]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:30:11]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:30:11]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:31:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:31:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:31:30]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 20:32:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 20:32:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 20:32:33]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 21:46:30]: [INFO] SQLite Setup finished
+[11-12 21:46:30]: [INFO] Hooked into LuckPerms!
+[11-12 21:46:30]: [INFO] Hooked successfully into Multiverse-Core
+[11-12 21:46:31]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-12 21:47:01]: [INFO] Hooked successfully into CMI
+[11-12 21:47:05]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-12 21:47:05]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-12 21:47:05]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-12 21:47:05]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-12 21:47:05]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-12 21:47:25]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 21:47:25]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 21:47:25]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 21:47:30]: [FINE] The user Gnar233 has 2 accounts:
+[11-12 21:47:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 21:47:30]: [FINE] Gnar233 logged in 183.166.64.208
+[11-12 22:50:20]: [FINE] The user Gnar233 has 2 accounts:
+[11-12 22:50:20]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-12 22:50:20]: [FINE] Gnar233 logged in 183.166.64.208
+[11-12 23:22:22]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:22:22]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:22:22]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 23:24:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:24:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:24:54]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 23:26:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:26:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:26:53]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 23:29:15]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:29:15]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:29:15]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 23:31:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:31:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:31:27]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-12 23:32:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-12 23:32:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-12 23:32:33]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 08:05:53]: [FINE] The user Gnar233 has 2 accounts:
+[11-13 08:05:53]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-13 08:05:53]: [FINE] Gnar233 logged in 183.166.64.208
+[11-13 09:52:59]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 09:52:59]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 09:52:59]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 09:54:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 09:54:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 09:54:46]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 09:55:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 09:55:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 09:55:53]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 09:57:22]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 09:57:22]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 09:57:22]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:00:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:00:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:00:29]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:01:57]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:01:57]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:01:57]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:04:16]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:04:16]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:04:16]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:06:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:06:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:06:08]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:07:45]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:07:45]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:07:45]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:09:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:09:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:09:19]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:10:21]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:10:21]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:10:21]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:11:49]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:11:49]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:11:49]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:26:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:26:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:26:04]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:44:39]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:44:39]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:44:39]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:46:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:46:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:46:27]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:47:26]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:47:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:47:26]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:48:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:48:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:48:31]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:55:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:55:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:55:33]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:57:00]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:57:00]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:57:00]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 10:58:23]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 10:58:23]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 10:58:23]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:35:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:35:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:35:58]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:37:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:37:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:37:38]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:39:15]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:39:15]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:39:15]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:40:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:40:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:40:24]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:41:59]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:41:59]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:41:59]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:43:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:43:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:43:04]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:45:20]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:45:20]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:45:20]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:47:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:47:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:47:48]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 11:49:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 11:49:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 11:49:19]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:00:33]: [INFO] CMI has been disabled: unhooking
+[11-13 12:00:34]: [WARN] Error during SQL operation: [SQLException]: The database has been closed
+[11-13 12:00:34]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-13 12:04:04]: [INFO] SQLite Setup finished
+[11-13 12:04:04]: [INFO] Hooked into LuckPerms!
+[11-13 12:04:05]: [INFO] Hooked successfully into Multiverse-Core
+[11-13 12:04:05]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-13 12:04:35]: [INFO] Hooked successfully into CMI
+[11-13 12:04:40]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-13 12:04:40]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-13 12:04:40]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-13 12:04:40]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-13 12:04:40]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-13 12:05:14]: [FINE] The user Gnar233 has 2 accounts:
+[11-13 12:05:14]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-13 12:05:14]: [FINE] Gnar233 logged in 183.166.64.208
+[11-13 12:05:16]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:05:16]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:05:16]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:19:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:19:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:19:29]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:23:14]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:23:14]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:23:14]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:33:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:33:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:33:27]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:34:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:34:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:34:43]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:35:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:35:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:35:47]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:37:16]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:37:16]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:37:16]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:38:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:38:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:38:29]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:39:50]: [FINE] The user Gnar233 has 2 accounts:
+[11-13 12:39:50]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:39:50]: [FINE] Gnar233 logged in 183.166.64.208
+[11-13 12:42:06]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:42:06]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:42:06]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:43:11]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:43:11]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:43:11]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:44:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:44:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:44:53]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:46:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:46:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:46:19]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:48:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:48:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:48:35]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:50:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:50:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:50:08]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:51:05]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:51:05]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:51:05]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 12:52:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 12:52:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 12:52:43]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 14:13:10]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 14:13:10]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 14:13:10]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 14:14:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 14:14:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 14:14:31]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 14:16:02]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 14:16:02]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 14:16:02]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 14:17:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 14:17:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 14:17:07]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 14:25:52]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 14:25:52]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 14:25:52]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:23:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:23:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:23:13]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:24:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:24:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:24:46]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:27:32]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:27:32]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:27:32]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:28:47]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:28:47]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:28:47]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:30:32]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:30:32]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:30:32]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:32:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:32:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:32:27]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:33:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:33:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:33:35]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:40:14]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:40:14]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:40:14]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:41:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:41:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:41:30]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 16:42:40]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-13 16:42:40]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-13 16:42:40]: [FINE] XiaoMie_ logged in 183.166.64.208
+[11-13 18:43:52]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 10:49:29]: [FINE] Doogle007 logged in 112.32.12.211
+[11-14 12:31:31]: [INFO] SQLite Setup finished
+[11-14 12:31:31]: [INFO] Hooked into LuckPerms!
+[11-14 12:31:32]: [INFO] Hooked successfully into Multiverse-Core
+[11-14 12:31:32]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-14 12:32:03]: [INFO] Hooked successfully into CMI
+[11-14 12:32:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-14 12:32:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-14 12:32:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-14 12:32:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-14 12:32:08]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-14 16:19:43]: [FINE] Gnar233 logged in 218.23.204.214
+[11-14 16:27:59]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 16:43:21]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 16:50:32]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 17:39:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 17:39:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 17:39:29]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 17:46:21]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 18:01:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:01:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:01:04]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:02:21]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:02:21]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:02:21]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:26:02]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:26:02]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:26:02]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:27:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:27:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:27:24]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:30:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:30:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:30:46]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:33:11]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:33:11]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:33:11]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:37:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:37:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:37:04]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:38:32]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:38:32]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:38:32]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:40:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:40:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:40:08]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:50:32]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:50:32]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:50:32]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:53:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:53:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:53:35]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:54:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:54:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:54:53]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:55:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:55:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:55:46]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:56:42]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:56:42]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:56:42]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 18:59:06]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 18:59:06]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 18:59:06]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 19:00:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 19:00:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 19:00:58]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 19:02:01]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 19:02:01]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 19:02:01]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 19:03:47]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-14 20:09:35]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:09:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:09:35]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:10:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:10:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:10:44]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:12:02]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:12:02]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:12:02]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:15:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:15:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:15:29]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:16:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:16:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:16:27]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:17:18]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:17:18]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:17:18]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:18:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:18:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:18:13]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:40:35]: [FINE] The user Gnar233 has 2 accounts:
+[11-14 20:40:35]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:40:35]: [FINE] Gnar233 logged in 218.23.204.214
+[11-14 20:55:49]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:55:49]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:55:49]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:57:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:57:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:57:08]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:58:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:58:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:58:08]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 20:59:22]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 20:59:22]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 20:59:22]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:00:50]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:00:50]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:00:50]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:03:28]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:03:28]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:03:28]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:04:36]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:04:37]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:04:37]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:09:27]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:09:27]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:09:27]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:10:56]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:10:56]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:10:56]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:13:01]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:13:01]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:13:01]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:32:10]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:32:10]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:32:10]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:33:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:33:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:33:54]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:36:01]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:36:01]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:36:01]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:37:09]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:37:09]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:37:09]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:38:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:38:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:38:31]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:39:26]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:39:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:39:26]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:40:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:40:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:40:44]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:44:26]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:44:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:44:26]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:47:51]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:47:51]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:47:51]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:49:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:49:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:49:08]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:52:26]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:52:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:52:26]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:55:26]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:55:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:55:26]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 21:58:20]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 21:58:20]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 21:58:20]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:02:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:02:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:02:31]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:04:25]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:04:25]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:04:25]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:06:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:06:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:06:58]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:07:52]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:07:52]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:07:52]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:09:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:09:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:09:54]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:15:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:15:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:15:07]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:35:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:35:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:35:04]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 22:41:01]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 22:41:01]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 22:41:01]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-14 23:07:03]: [FINE] The user Gnar233 has 2 accounts:
+[11-14 23:07:03]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 23:07:03]: [FINE] Gnar233 logged in 218.23.204.214
+[11-14 23:16:22]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-14 23:16:22]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-14 23:16:22]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 09:26:14]: [FINE] The user Gnar233 has 2 accounts:
+[11-15 09:26:14]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-15 09:26:14]: [FINE] Gnar233 logged in 218.23.204.214
+[11-15 10:02:42]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:02:42]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:02:42]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:03:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:03:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:03:24]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:04:18]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:04:18]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:04:18]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:06:20]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:06:20]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:06:20]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:07:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:07:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:07:30]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:08:18]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:08:18]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:08:18]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:08:50]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:08:50]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:08:50]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 10:09:56]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 10:09:56]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 10:09:56]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 11:58:59]: [FINE] Yuzza logged in 111.44.151.100
+[11-15 12:00:37]: [INFO] CMI has been disabled: unhooking
+[11-15 12:00:37]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-15 12:04:28]: [INFO] SQLite Setup finished
+[11-15 12:04:28]: [INFO] Hooked into LuckPerms!
+[11-15 12:04:28]: [INFO] Hooked successfully into Multiverse-Core
+[11-15 12:04:29]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-15 12:04:59]: [INFO] Hooked successfully into CMI
+[11-15 12:05:04]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-15 12:05:04]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-15 12:05:04]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-15 12:05:04]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-15 12:05:04]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-15 12:05:52]: [FINE] The user Gnar233 has 2 accounts:
+[11-15 12:05:52]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-15 12:05:52]: [FINE] Gnar233 logged in 218.23.204.214
+[11-15 12:05:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-15 12:05:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-15 12:05:54]: [FINE] XiaoMie_ logged in 218.23.204.214
+[11-15 13:52:05]: [FINE] Yuzza logged in 111.44.150.2
+[11-15 14:03:25]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-16 08:55:03]: [FINE] Gnar233 logged in 223.242.251.238
+[11-16 10:35:55]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-16 12:00:36]: [INFO] CMI has been disabled: unhooking
+[11-16 12:00:37]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-16 12:04:47]: [INFO] SQLite Setup finished
+[11-16 12:04:47]: [INFO] Hooked into LuckPerms!
+[11-16 12:04:48]: [INFO] Hooked successfully into Multiverse-Core
+[11-16 12:04:49]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-16 12:05:20]: [INFO] Hooked successfully into CMI
+[11-16 12:05:24]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-16 12:05:24]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-16 12:05:24]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-16 12:05:25]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-16 12:05:25]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-16 12:06:22]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-16 12:10:17]: [FINE] Gnar233 logged in 223.242.251.238
+[11-16 15:49:34]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-16 17:31:49]: [FINE] Yuzza logged in 111.44.150.2
+[11-17 09:26:23]: [FINE] Gnar233 logged in 223.242.251.238
+[11-17 10:01:17]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:01:17]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:01:17]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:02:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:02:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:02:43]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:03:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:03:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:03:48]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:04:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:04:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:04:46]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:50:07]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-17 10:53:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:53:41]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:53:41]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:54:46]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:54:46]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:54:46]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:57:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:57:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:57:38]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 10:58:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 10:58:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 10:58:55]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 11:14:24]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 11:14:24]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 11:14:24]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 11:15:16]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 11:15:16]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 11:15:16]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:00:38]: [INFO] CMI has been disabled: unhooking
+[11-17 12:00:39][11-17 12:00:39]: : [WARN] Error during SQL operation: [SQLException]: The database has been closed[WARN] Error during SQL operation: [SQLException]: The database has been closed
+
+[11-17 12:00:39]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-17 12:05:25]: [INFO] SQLite Setup finished
+[11-17 12:05:25]: [INFO] Hooked into LuckPerms!
+[11-17 12:05:26]: [INFO] Hooked successfully into Multiverse-Core
+[11-17 12:05:26]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-17 12:05:59]: [INFO] Hooked successfully into CMI
+[11-17 12:06:04]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-17 12:06:04]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-17 12:06:04]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-17 12:06:04]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-17 12:06:04]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-17 12:08:06]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-17 12:17:05]: [FINE] The user Gnar233 has 2 accounts:
+[11-17 12:17:05]: [FINE] §7§aGnar233§7, xiaomie_.
+[11-17 12:17:05]: [FINE] Gnar233 logged in 223.242.251.238
+[11-17 12:36:09]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:36:09]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:36:09]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:51:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:51:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:51:04]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:53:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:53:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:53:55]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:55:30]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:55:30]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:55:30]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:56:58]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:56:58]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:56:58]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 12:58:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 12:58:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 12:58:38]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:02:09]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:02:09]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:02:09]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:03:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:03:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:03:38]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:04:40]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:04:40]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:04:40]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:11:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:11:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:11:44]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:13:59]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:13:59]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:13:59]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:16:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:16:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:16:07]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:30:21]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:30:21]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:30:21]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:31:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:31:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:31:31]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:32:34]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:32:34]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:32:34]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:53:56]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:53:56]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:53:56]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:55:03]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:55:03]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:55:03]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:55:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:55:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:55:44]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:56:39]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:56:39]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:56:39]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:57:25]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:57:25]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:57:25]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 13:59:44]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 13:59:44]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 13:59:44]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:00:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:00:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:00:55]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:05:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:05:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:05:08]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:07:14]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:07:14]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:07:14]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:09:42]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:09:42]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:09:42]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:10:31]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:10:31]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:10:31]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:12:03]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:12:03]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:12:03]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:15:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:15:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:15:29]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:17:02]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:17:02]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:17:02]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:18:13]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:18:13]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:18:13]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:20:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:20:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:20:38]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:22:57]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:22:57]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:22:57]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:24:06]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:24:06]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:24:06]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:27:03]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:27:03]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:27:03]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:29:38]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:29:38]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:29:38]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:30:34]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:30:34]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:30:34]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:37:28]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:37:28]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:37:28]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:38:54]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:38:54]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:38:54]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:40:08]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:40:08]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:40:08]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:41:43]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:41:43]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:41:43]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:43:52]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:43:52]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:43:52]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:45:39]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:45:39]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:45:39]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:48:05]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:48:05]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:48:05]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:48:48]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:48:48]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:48:48]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:53:02]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:53:02]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:53:02]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:54:57]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:54:57]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:54:57]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:56:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:56:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:56:33]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 14:59:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 14:59:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 14:59:53]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:03:55]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:03:55]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:03:55]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:06:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:06:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:06:53]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:08:18]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:08:18]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:08:18]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:09:37]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:09:37]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:09:37]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:17:54]: [FINE] Yuzza used the wrong password
+[11-17 15:18:44]: [FINE] Yuzza logged in 111.44.151.4
+[11-17 15:41:41]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:41:41]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:41:41]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:45:10]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:45:10]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:45:10]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:46:22]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:46:22]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:46:22]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:48:40]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:48:40]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:48:40]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:53:37]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:53:37]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:53:37]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:55:04]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:55:04]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:55:04]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:56:19]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:56:19]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:56:19]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-17 15:57:29]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-17 15:57:29]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-17 15:57:29]: [FINE] XiaoMie_ logged in 223.242.251.238
+[11-18 11:40:45]: [FINE] Gnar233 logged in 183.166.65.145
+[11-18 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-18 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-18 12:03:47]: [INFO] SQLite Setup finished
+[11-18 12:03:47]: [INFO] Hooked into LuckPerms!
+[11-18 12:03:47]: [INFO] Hooked successfully into Multiverse-Core
+[11-18 12:03:48]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-18 12:04:19]: [INFO] Hooked successfully into CMI
+[11-18 12:04:24]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-18 12:04:24]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-18 12:04:24]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-18 12:04:24]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-18 12:04:24]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-18 14:52:45]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-18 15:55:09]: [FINE] Yuzza logged in 111.44.151.4
+[11-18 18:25:14]: [FINE] Gnar233 logged in 183.166.65.145
+[11-18 21:45:23]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-19 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-19 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-19 12:04:36]: [INFO] SQLite Setup finished
+[11-19 12:04:36]: [INFO] Hooked into LuckPerms!
+[11-19 12:04:37]: [INFO] Hooked successfully into Multiverse-Core
+[11-19 12:04:38]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-19 12:05:09]: [INFO] Hooked successfully into CMI
+[11-19 12:05:13]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-19 12:05:13]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-19 12:05:13]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-19 12:05:13]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-19 12:05:13]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-19 22:26:20]: [FINE] GMLG_xiaobei logged in 183.216.151.29
+[11-19 22:27:51]: [FINE] Yuzza logged in 111.44.167.158
+[11-20 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-20 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-20 12:04:20]: [INFO] SQLite Setup finished
+[11-20 12:04:21]: [INFO] Hooked into LuckPerms!
+[11-20 12:04:21]: [INFO] Hooked successfully into Multiverse-Core
+[11-20 12:04:22]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-20 12:04:53]: [INFO] Hooked successfully into CMI
+[11-20 12:04:58]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-20 12:04:58]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-20 12:04:58]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-20 12:04:58]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-20 12:04:58]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-21 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-21 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-21 12:04:11]: [INFO] SQLite Setup finished
+[11-21 12:04:12]: [INFO] Hooked into LuckPerms!
+[11-21 12:04:12]: [INFO] Hooked successfully into Multiverse-Core
+[11-21 12:04:13]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-21 12:04:44]: [INFO] Hooked successfully into CMI
+[11-21 12:04:48]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-21 12:04:48]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-21 12:04:48]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-21 12:04:48]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-21 12:04:48]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-21 13:59:30]: [FINE] Gnar233 logged in 218.23.204.70
+[11-21 14:18:39]: [FINE] Gnar233 logged in 218.23.204.70
+[11-21 14:31:17]: [FINE] yuan_chu registered 113.16.126.213
+[11-21 14:31:17]: [FINE] yuan_chu logged in 113.16.126.213
+[11-21 15:14:31]: [FINE] Gnar233 logged in 218.23.204.70
+[11-21 15:37:07]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-21 15:37:07]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:37:07]: [FINE] XiaoMie_ logged in 218.23.204.70
+[11-21 15:38:36]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-21 15:38:36]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:38:36]: [FINE] XiaoMie_ logged in 218.23.204.70
+[11-21 15:44:14]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-21 15:44:14]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:44:14]: [FINE] XiaoMie_ logged in 218.23.204.70
+[11-21 15:45:26]: [FINE] The user Gnar233 has 2 accounts:
+[11-21 15:45:26]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:45:26]: [FINE] Gnar233 logged in 218.23.204.70
+[11-21 15:47:53]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-21 15:47:53]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:47:53]: [FINE] XiaoMie_ logged in 218.23.204.70
+[11-21 15:48:33]: [FINE] The user XiaoMie_ has 2 accounts:
+[11-21 15:48:33]: [FINE] §7§aGnar233§7, §aXiaoMie_§7.
+[11-21 15:48:33]: [FINE] XiaoMie_ logged in 218.23.204.70
+[11-22 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-22 12:00:33]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-22 12:04:20]: [INFO] SQLite Setup finished
+[11-22 12:04:20]: [INFO] Hooked into LuckPerms!
+[11-22 12:04:21]: [INFO] Hooked successfully into Multiverse-Core
+[11-22 12:04:22]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-22 12:04:52]: [INFO] Hooked successfully into CMI
+[11-22 12:04:57]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-22 12:04:57]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-22 12:04:57]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-22 12:04:57]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-22 12:04:57]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-23 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-23 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-23 12:04:31]: [INFO] SQLite Setup finished
+[11-23 12:04:31]: [INFO] Hooked into LuckPerms!
+[11-23 12:04:31]: [INFO] Hooked successfully into Multiverse-Core
+[11-23 12:04:33]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-23 12:05:04]: [INFO] Hooked successfully into CMI
+[11-23 12:05:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-23 12:05:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-23 12:05:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-23 12:05:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-23 12:05:08]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-24 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-24 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-24 12:04:31]: [INFO] SQLite Setup finished
+[11-24 12:04:32]: [INFO] Hooked into LuckPerms!
+[11-24 12:04:32]: [INFO] Hooked successfully into Multiverse-Core
+[11-24 12:04:33]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-24 12:05:06]: [INFO] Hooked successfully into CMI
+[11-24 12:05:11]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-24 12:05:11]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-24 12:05:11]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-24 12:05:11]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-24 12:05:11]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-25 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-25 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-25 12:03:49]: [INFO] SQLite Setup finished
+[11-25 12:03:49]: [INFO] Hooked into LuckPerms!
+[11-25 12:03:49]: [INFO] Hooked successfully into Multiverse-Core
+[11-25 12:03:50]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-25 12:04:23]: [INFO] Hooked successfully into CMI
+[11-25 12:04:27]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-25 12:04:27]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-25 12:04:27]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-25 12:04:27]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-25 12:04:27]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-26 12:00:31]: [INFO] CMI has been disabled: unhooking
+[11-26 12:00:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-26 12:04:08]: [INFO] SQLite Setup finished
+[11-26 12:04:09]: [INFO] Hooked into LuckPerms!
+[11-26 12:04:09]: [INFO] Hooked successfully into Multiverse-Core
+[11-26 12:04:10]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-26 12:04:44]: [INFO] Hooked successfully into CMI
+[11-26 12:04:49]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-26 12:04:49]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-26 12:04:49]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-26 12:04:49]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-26 12:04:49]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-27 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-27 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-27 12:03:50]: [INFO] SQLite Setup finished
+[11-27 12:03:51]: [INFO] Hooked into LuckPerms!
+[11-27 12:03:51]: [INFO] Hooked successfully into Multiverse-Core
+[11-27 12:03:52]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-27 12:04:25]: [INFO] Hooked successfully into CMI
+[11-27 12:04:30]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-27 12:04:30]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-27 12:04:30]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-27 12:04:30]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-27 12:04:30]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[11-28 12:00:32]: [INFO] CMI has been disabled: unhooking
+[11-28 12:00:32]: [INFO] AuthMe 5.6.0-SNAPSHOT-bCUSTOM disabled!
+[11-28 12:04:13]: [INFO] SQLite Setup finished
+[11-28 12:04:14]: [INFO] Hooked into LuckPerms!
+[11-28 12:04:14]: [INFO] Hooked successfully into Multiverse-Core
+[11-28 12:04:15]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[11-28 12:04:46]: [INFO] Hooked successfully into CMI
+[11-28 12:04:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-28 12:04:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11-28 12:04:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11-28 12:04:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+[11-28 12:04:50]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (系统找不到指定的文件。)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

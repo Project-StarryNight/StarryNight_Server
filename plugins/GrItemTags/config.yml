@@ -1,0 +1,6 @@
+# 掉落物显示名字的格式，%name%将被替换为物品名字
+format:
+  # 单个物品显示的名字
+  single: '&9%name%'
+  # 多个物品堆叠时显示的名字，%amount%替换为数量
+  muilt: '&9%name% &b* &3%amount%'

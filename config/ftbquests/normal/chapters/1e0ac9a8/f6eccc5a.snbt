@@ -1,0 +1,16 @@
+{
+	title: "{snp.quests.f6eccc5a.title}",
+	x: -1.5d,
+	y: 5.0d,
+	description: "{snp.quests.f6eccc5a.description}",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "11e236c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}]
+}

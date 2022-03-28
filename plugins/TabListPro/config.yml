@@ -1,0 +1,177 @@
+# config.yml
+#
+##########################################
+# Thank you for choosing TabListPro!
+##########################################
+#
+# Change the entire dynamic of your server with a great-looking TabList!
+#
+#   TabListPro allows you to easily and efficiently change how players are
+# sorted in your TabList, what animations specific Groups of players have,
+# how the header and footer looks, and more!
+#
+############################
+#
+# - All parts of this plugin are compatible with PlaceholderAPI! (Not required)
+# Link: https://www.spigotmc.org/resources/placeholderapi.6245/
+# Placeholders: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
+#
+# Please keep in mind you may have to run the following commands to get PlaceholderAPI working:
+# /papi ecloud download <plugin you want placeholders from>
+# /papi reload
+#
+# (Ex. '/papi ecloud download Server' followed by '/papi reload')
+#
+############################
+#
+# - TabListPro Commands:
+# /tablistpro OR /tlp set <player> <group> | Set a player to a specified Group
+# /tablistpro OR /tlp reload | Reload TabListPro
+#
+# - TabListPro Permissions:
+# tablistpro.set
+# tablistpro.reload
+#
+############################
+#
+# For any questions, suggestions, or issues regarding TabListPro, please make a post in its corresponding Discussion Page on Spigot.
+#
+#####
+
+
+
+###
+# HEADER AND FOOTER:
+#
+# Enable text above the player list in the TabList?
+header-enabled: true
+# Animation sequence for the header. Use '\n' to create a new line, or edit the template below.
+header:
+- '\n&9&lStarryNight Pray\n'
+# The rate (in ticks) that the animation sequence above cycles. 20 ticks = 1 second.
+header-interval: 5
+#
+# Enable text below the player list in the tab?
+footer-enabled: true
+footer:
+- '&b&l—&9&l—&b&l————————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l——&9&l—&b&l———————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l———&9&l—&b&l——————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l————&9&l—&b&l—————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l—————&9&l—&b&l————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l——————&9&l—&b&l———\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l———————&9&l—&b&l——\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l————————&9&l—&b&l—\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l—————————&9&l—\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l————————&9&l—&b&l—\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l———————&9&l—&b&l——\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l——————&9&l—&b&l———\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l—————&9&l—&b&l————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l————&9&l—&b&l—————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l———&9&l—&b&l——————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l——&9&l—&b&l———————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l—&9&l—&b&l————————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+- '&b&l&9&l—&b&l—————————\n&6Online: &b%server_online% &e/ &6%server_max_players%\nTPS：%server_tps%'
+footer-interval: 3
+#
+###
+
+
+###
+# SORTING:
+#
+#   The order of the permissions in the list below is the
+# order in which players with those permissions will be
+# sorted in the TabList.
+#
+# For example,
+#
+# sortByPerms:
+# - 'tlp.c'
+# - 'tlp.b'
+# - 'tlp.a'
+#
+#   In the list above, all players with the permission 'tlp.c'
+# will be sorted above players with the permissions 'tlp.b', who
+# will be sorted above players with the 'tlp.a' permission. Anyone
+# without a permission is set to the bottom and is sorted by username.
+#
+sortByPerms:
+- 'tlp.c'
+- 'tlp.b'
+- 'tlp.a'
+#
+# How often should the TabList sort players and check if they have permission to a new Group?
+# (Players are auto-sorted upon joining as well)
+# (Groups will be instantly updated in Tab when added through the command, this is
+#  checking if the player has gained a different 'orHasPermission' permission)
+# (Note: this is also how often the player's displayname, 'prefix', and
+#  'suffix' is updated if you have 'use-displayname' set to true)
+update-sorting-and-groups: 300
+#
+###
+
+
+###
+# DISPLAY NAMES:
+#
+# Use players' display/chat names in the TabList?
+# (This will make a player's name in the TabList just like their chat name)
+use-displayname: false
+#
+# Add a prefix and/or suffix to the player's display name?
+# The 'prefix' and 'suffix' update according to 'update-placeholders' found below
+# (Note: this only applies when 'use-displayname' is set to true)
+# (Note: THERE IS NOT a 16 character limit for these)
+prefix: '&8[&bCLAN&8] &f'
+suffix: '&f | &7&lNOVICE'
+#
+###
+
+###
+# GROUPS:
+#
+# The default group players are placed in to
+default-group: 'member'
+#
+#   Groups give you an easy option to distinguish between players for your TabList!
+# Listed below are three example groups to help you get started.
+#
+#   Assign players to Groups with: /tablistpro set <player> <group>,
+#   or by giving them the corresponding 'orHasPermission' permission.
+#
+# (Note: Groups are not automatically sorted - you'll need to add your own
+#  permissions to the 'sortByPerms' section)
+groups:
+  # Group name
+  op:
+    # If a player has this permission, they will automatically be added to this Group
+    # (This permission is not required! You can also use: /tablistpro set <player> <group>)
+    # Remember: Since operators have all permissions, they will by default be assigned to this Group
+    # (Higher Groups take priority over lower Groups when multiple permissions are assigned)
+    orHasPermission: 'tlp.op'
+    # Animation sequence specific to this Group
+    #
+    # Placeholders: &b%player%, &6%player_displayname%, and all PlaceholderAPI placeholders
+    display:
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&lOP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&l&nO&c&lP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&l&nOP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&lO&c&l&nP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&lOP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&lO&c&l&nP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&l&nOP&7'
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7 | &c&l&nO&c&lP&7'
+  member:
+    orHasPermission: 'tlp.member'
+    display:
+    - '%vault_prefix%&b%player% &7| &e%player_ping%ms&7'
+#
+# The rate (in ticks) that the animation sequence for each Group cycles per player. 20 ticks = 1 second.
+name-animation: 10
+#
+###
+
+
+# Message sent to a player when they attempt to run a command they don't have access to
+no-permission: '&8[&b&lTabList&9&lPro&8] &bYou do not have permission to do that!'

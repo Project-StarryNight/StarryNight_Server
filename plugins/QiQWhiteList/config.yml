@@ -1,0 +1,11 @@
+Enable: true
+MySQL:
+  use: false
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  database: whitelist
+  table: whitelist
+sqlkickmessage: '&c你没有获得本服的白名单!请在www.xxx.com申请。'
+ymlkickmessage: '&c你没有获得白名单,请联系服主获得。\nYou have not been whitelisted, please contact the service owner to get it.'

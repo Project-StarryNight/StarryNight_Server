@@ -1,0 +1,16 @@
+{
+	title: "{snp.quests.8213c9fd.title}",
+	x: -0.5d,
+	y: 8.0d,
+	description: "{snp.quests.8213c9fd.description}",
+	dependencies: [
+		"aa93c815"
+	],
+	tasks: [{
+		uid: "ccdb9947",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}]
+	}]
+}

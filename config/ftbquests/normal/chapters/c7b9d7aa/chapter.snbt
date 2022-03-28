@@ -1,0 +1,7 @@
+{
+	title: "{snp.quests.c7b9d7aa.title}",
+	icon: "gregtech:machine 1 992",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

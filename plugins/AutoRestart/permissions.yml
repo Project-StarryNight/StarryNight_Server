@@ -1,0 +1,70 @@
+#██████╗░███████╗██████╗░███╗░░░███╗██╗░██████╗░██████╗██╗░█████╗░███╗░░██╗░██████╗
+#██╔══██╗██╔════╝██╔══██╗████╗░████║██║██╔════╝██╔════╝██║██╔══██╗████╗░██║██╔════╝
+#██████╔╝█████╗░░██████╔╝██╔████╔██║██║╚█████╗░╚█████╗░██║██║░░██║██╔██╗██║╚█████╗░
+#██╔═══╝░██╔══╝░░██╔══██╗██║╚██╔╝██║██║░╚═══██╗░╚═══██╗██║██║░░██║██║╚████║░╚═══██╗
+#██║░░░░░███████╗██║░░██║██║░╚═╝░██║██║██████╔╝██████╔╝██║╚█████╔╝██║░╚███║██████╔╝
+#╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚══╝╚═════╝░
+
+## 修改这里的设置并不会改变任何东西
+## 这里只是列举出本插件的每一项权限
+
+#▒█▀▀▄ ▒█▀▀▀ ▒█▀▀▀ ░█▀▀█ ▒█░▒█ ▒█░░░ ▀▀█▀▀
+#▒█░▒█ ▒█▀▀▀ ▒█▀▀▀ ▒█▄▄█ ▒█░▒█ ▒█░░░ ░▒█░░
+#▒█▄▄▀ ▒█▄▄▄ ▒█░░░ ▒█░▒█ ░▀▄▄▀ ▒█▄▄█ ░▒█░░
+# 初始权限
+
+autorestart:
+    default: true
+    command: '/autore'
+    
+autorestart.help:
+    default: true
+    command: '/autore help'
+    
+autorestart.time:
+    default: true
+    command: '/autore time'
+
+#░█▀▀█ ▒█▀▀▄ ▒█▀▄▀█ ▀█▀ ▒█▄░▒█
+#▒█▄▄█ ▒█░▒█ ▒█▒█▒█ ▒█░ ▒█▒█▒█
+#▒█░▒█ ▒█▄▄▀ ▒█░░▒█ ▄█▄ ▒█░░▀█
+# 管理权限
+
+autorestart.admin:
+    - autorestart.in
+    - autorestart.now
+    - autorestart.pause
+    - autorestart.resume
+
+autorestart.in:
+    default: false
+    command: '/autore in'
+    
+autorestart.now:
+    default: false
+    command: '/autore now'
+    
+autorestart.pause:
+    default: false
+    command: '/autore pause'
+    
+autorestart.resume:
+    default: false
+    command: '/autore resume'
+
+#░█▀▀█ ▒█░░░ ▒█░░░
+#▒█▄▄█ ▒█░░░ ▒█░░░
+#▒█░▒█ ▒█▄▄█ ▒█▄▄█
+#所有权限
+
+autorestart.*:
+    - autorestart.help
+    - autorestart.time
+    - autorestart.resume
+    - autorestart.pause
+    - autorestart.in
+    - autorestart.reload
+    - autorestart.now
+
+## 不要更改本项！！！！！！！！！
+version: 1

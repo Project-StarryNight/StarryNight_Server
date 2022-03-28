@@ -1,0 +1,37 @@
+#       ## 网络管理系统配置文件
+#       ###########################
+#       配置版本号 请勿修改!!!
+Version: 1.2
+#       是否开启
+Enable: true
+#       是否显示详细信息
+ShowInfo: true
+#       网络调试模式
+NetworkDebug: false
+#       是否允许插件主线程访问网络
+AllowPrimaryThread: false
+#       调试列表
+Debug:
+- AAC
+#       黑名单列表
+Black:
+- BukkitInjectedTools
+- FeatherBoard
+- CMILib
+- ColorMOTD
+#       忽略检测列表
+Ignore:
+- Essentials
+- CMILib
+- MiraiMC
+- CMI
+- EasyBot_Reloaded
+- DianAntiBot
+#       白名单域名(例如: http://report.mcstats.org/plugin/Vault 只需要填写 report.mcstats.org 即可)
+WhiteURL:
+- mcstats.org
+- report.mcstats.org
+- www.spigotmc.org
+- dev.bukkit.org
+- api.curseforge.com
+- bStats.org

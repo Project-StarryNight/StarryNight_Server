@@ -1,0 +1,8 @@
+Economy:
+  Enabled: false
+  Price: 5
+CustomWorlds:
+  Enabled: false
+  Worlds:
+    world: 5
+    world_end: 0

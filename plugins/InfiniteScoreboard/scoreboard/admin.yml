@@ -1,0 +1,38 @@
+# No permission
+permission: null
+# The higher is the number -> higher priority
+priority: 1
+# 显示的世界
+worlds:
+  - "example_1"
+  - "example_2"
+scoreboard:
+  # 请注意，内容的line-#必须是按照数字顺序来的，比如123456
+  # 计分板标题
+  title:
+    #刷新时间多少tick
+    interval: 1000
+    #刷新的不同内容，如果只有一条则为不刷新
+    lines:
+      - '&9&l> SNP ModPack <'
+  #内容（行），line-必须严格按照顺序，比如123456
+  line-1:
+    interval: 100
+    lines:
+      - '&3| | &9> Ping：%player_colored_ping%ms'
+  line-2:
+    interval: 20
+    lines:
+      - '&3| | &9> TPS：&b%realtps_tps_1%'
+  line-3:
+    interval: 100
+    lines:
+      - '&3| | &9> Chunk：&b%server_total_chunks%'
+  line-4:
+    interval: 100
+    lines:
+      - '&3| | &9> Ent：&b%server_total_entities%'
+  line-5:
+    interval: 20
+    lines:
+      - '&9> MEM：&b%server_ram_used%m &7/ &b%server_ram_max%m'

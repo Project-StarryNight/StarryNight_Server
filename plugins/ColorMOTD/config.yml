@@ -1,0 +1,17 @@
+## ColorMOTD v1.5.3 Config
+# http://www.mcbbs.net/thread-448326-1-1.html
+Motd:
+- '&9StarryNight_Pray &aServer &e—— &bBy Hikari_Nova'
+OnlineMsg: '&a在线人数 &6%ONLINE%&7/&6%MAXPLAYER%'
+Players:
+- ''
+- ''
+- ''
+ServiceModeMOTD: '&c服务器维护中,请等待维护完成...'
+ServiceModeKickCause: '&c服务器维护中,请等待维护完成再进入服务器!'
+useBungeeCord: false
+redisBungee: false
+AttributionServer: taobao
+TPSFormat: '20.0'
+showDelay: true
+UpdateChecker: false

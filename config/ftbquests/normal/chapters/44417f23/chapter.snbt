@@ -1,0 +1,16 @@
+{
+	title: "{snp.quests.44417f23.title}",
+	icon: {
+		id: "botania:twigwand",
+		tag: {
+			color1: 0,
+			color2: 0
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: ""
+}

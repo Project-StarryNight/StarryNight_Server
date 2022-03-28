@@ -1,0 +1,7 @@
+system:
+  # What locale should we use?
+  locale: "en_US"
+
+scoreboard:
+  # Should scoreboard should be toggle off by default?
+  toggle-by-default: false

@@ -1,0 +1,46 @@
+{
+	title: "{snp.quests.bf5818d6.title}",
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"552d3007"
+	],
+	tasks: [{
+		uid: "81b56ad2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 187"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "661a735b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 157"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "bd48cf6f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 217"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "0adb74cf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 232"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "59385b10",
+		type: "item",
+		item: "gregtech:meta_item_1 1 127",
+		count: 32
+	}]
+}

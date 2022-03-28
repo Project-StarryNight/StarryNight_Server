@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="bottomcenter">
+        <line>
+            <str>{offhandlargeicon}{offhandname}$d|$r{mainhandlargeicon}{mainhandname}</str>
+        </line>
+
+        <line>
+            <str>$e{offhanddamageleft}$f / $e{offhandmaxdamage}$d|$e{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+    </lines>
+
+    <lines at="topleft">
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <str>{pingicon} $2{username}$r</str>
+        </line>
+
+        <line>
+        <operation>
+            <str>GT</str>
+            <var>fps</var>
+                <num>143</num>
+                <num>119</num>
+                <num>89</num>
+                <num>74</num>
+                <num>59</num>
+                <num>29</num>
+                <num>15</num>
+                <num>0</num>
+                    <str>$5FPS:{fps}</str>
+                    <str>$dFPS:{fps}</str>
+                    <str>$3FPS:{fps}</str>
+                    <str>$bFPS:{fps}</str>
+                    <str>$aFPS:{fps}</str>
+                    <str>$eFPS:{fps}</str>
+                    <str>$cFPS:{fps}</str>
+                    <str>$4FPS:{fps}</str>
+        </operation>
+            <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
+
+        <str>$7丨$eDay:{day}$c$7丨$eTime:{mctime24}</str>
+        </line>
+
+        <line>
+        <str>$bMEM$f: $9$l[</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>8</num>
+                <num>16</num>
+                <num>24</num>
+                <num>32</num>
+                <num>40</num>
+                <num>48</num>
+                <num>56</num>
+                <num>64</num>
+                <num>72</num>
+                <num>81</num>
+                <num>89</num>
+                <num>97</num>
+                <num>100</num>
+                <str>$2$l$m|$5$l$n||||||||||||</str>
+                <str>$2$l$m||$5$l$n|||||||||||</str>
+                <str>$2$l$m|||$5$l$n||||||||||</str>
+                <str>$2$l$m||||$5$l$n|||||||||</str>
+                <str>$a$l$m|||||$5$l$n||||||||</str>
+                <str>$a$l$m||||||$5$l$n|||||||</str>
+                <str>$a$l$m|||||||$5$l$n||||||</str>
+                <str>$e$l$m||||||||$5$l$n|||||</str>
+                <str>$e$l$m|||||||||$5$l$n||||</str>
+                <str>$6$l$m||||||||||$5$l$n|||</str>
+                <str>$c$l$m|||||||||||$5$l$n||</str>
+                <str>$4$l$m||||||||||||$5$l$n|</str>
+                <str>$4$l$m|||||||||||||</str>
+            </op>
+            <str>$9$l] $f(</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1048576000</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$f)</str>
+        </line>
+
+        <line>
+            <str>$bPlayer: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
+        </line>
+
+        <line>
+            <str>$bPlayer: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
+        </line>
+
+        <line>
+            <if>
+                <var>invisible</var>
+                <str>$7当前处于隐身状态 </str>
+            </if>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <if>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>2</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>2</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>2</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>2</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <icon>
+                        <str>textures/items/diamond_pickaxe.png</str>
+                        <num>0</num>
+                        <num>-4</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>  此处为 $2{underline}矿脉$f 的中心区块</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str>      </str>
+                    </if>
+                    <str>你正在区块 $4{underline}中心$f</str>
+                </concat>
+            </if>
+        </line>
+
+    </lines>
+
+    <lines at="topcenter">
+        <line>
+            <operation>
+                <str>EQ</str>
+                <var>abrroughdirection</var>
+                    <num>E</num>
+                    <num>S</num>
+                    <num>W</num>
+                    <num>N</num>
+                        <str>$5东</str>
+                        <str>$5南</str>
+                        <str>$5西</str>
+                        <str>$5北</str>
+            </operation>
+                        <str> $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomright">
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c!</str>
+                <str>$4!!</str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {helmetlargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c!</str>
+                <str>$4!!</str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {chestplatelargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c!</str>
+                <str>$4!!</str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {leggingslargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c!</str>
+                <str>$4!!</str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {bootslargeicon}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomleft">
+    <line>
+        <icon>
+            <str>thaumcraft:curio</str>
+            <num>5</num>
+        </icon>
+        <str> $6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
+    </line>
+
+    <line>
+        <concat>
+            <icon>
+                <str>bloodmagic:textures/items/archmagebloodorb.png</str>
+                <num>0</num>
+                <num>0</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+                </icon>
+            <str> $c{bmcurrentlp}$r</str>
+        </concat>
+    </line>
+
+    <line>
+        <str> </str>
+    </line>
+    </lines>
+
+    <lines at="middleleft">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionicon0} $a{potioneffect0}$r {potionduration0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionicon1} $a{potioneffect1}$r {potionduration1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionicon2} $a{potioneffect2}$r {potionduration2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionicon3} $a{potioneffect3}$r {potionduration3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionicon4} $a{potioneffect4}$r {potionduration4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionicon5} $a{potioneffect5}$r {potionduration5}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+
+</config>

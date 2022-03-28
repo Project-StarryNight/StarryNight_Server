@@ -1,0 +1,17 @@
+{
+	title: "{snp.quests.4f56e873.title}",
+	x: 1.0d,
+	y: 5.0d,
+	description: "{snp.quests.4f56e873.description}",
+	dependencies: [
+		"97d0f780",
+		"51685547"
+	],
+	tasks: [{
+		uid: "d3abe148",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}]
+	}]
+}
