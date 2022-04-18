@@ -6,7 +6,7 @@ set MiniRAM=6g
 ::Max RAM
 set MaxRAM=6g
 ::The server-side core, which normally does not need to be changed unless you need to replace the server-side core.
-set Core=CatServer-a8b73e9-universal.jar
+set Core=CatServer-90f3208-universal.jar
 
 echo WARNING, make sure you have Java 8 installed, if not, you will not be able to start the server!
 timeout /t 3

@@ -18,9 +18,10 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 
 global mnreactor as RecipeMap = FactoryRecipeMap.start("mnreactor")
-        .maxFluidInputs(4)
-        .maxFluidOutputs(2)
-        .build();
+    .maxFluidInputs(4)
+    .maxFluidOutputs(2)
+    .maxOutputs(2)
+    .build();
 
 val id = 32000;
 val loc = "mnreactor";
@@ -40,8 +41,10 @@ Builder.start(loc, id)
             .where("Z", CTPredicate.states(<metastate:gregtech:machine_casing:7>))
             .where("M", CTPredicate.states(<metastate:gregtech:metal_casing:10>)
             | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
-            | CTPredicate.abilities(<mte_ability:OUTPUT_ENERGY>).setMinGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:OUTPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
             | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(4).setPreviewCount(4)
+            | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>).setMinGlobalLimited(2).setPreviewCount(2)
+            | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
             )
             .where("W", CTPredicate.states(<metastate:gregtech:warning_sign:2>))
             .where("C", CTPredicate.states(<blockstate:gregtech:fusion_casing>))

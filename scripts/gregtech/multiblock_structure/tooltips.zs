@@ -16,6 +16,7 @@ MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_2"));
 MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_3"));
 MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_4"));
 MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_5"));
+MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_6"));
 
 //硅岩移相器
 var NaP as IItemStack = <gregtech:machine:32001>;
