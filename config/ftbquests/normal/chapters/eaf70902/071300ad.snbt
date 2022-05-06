@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	description: "{stp.quests.071300ad.description}",
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "de96c4be",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "{stp.quests.b4a79ca8.title}",
+	icon: "astralsorcery:itemjournal",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{stp.quests.b4a79ca8.description}",
+	text: [
+		"{stp.quests.b4a79ca8.text.1}",
+		"{stp.quests.b4a79ca8.text.2}"
+	],
+	tasks: [{
+		uid: "69ccd079",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dae6db9b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

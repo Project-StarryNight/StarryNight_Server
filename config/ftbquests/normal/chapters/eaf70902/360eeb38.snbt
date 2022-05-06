@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"9f7b37ce"
+	],
+	tasks: [{
+		uid: "8940f12d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockinfusedwood"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.2c5371cc.title}",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{stp.quests.2c5371cc.description}",
+	dependencies: [
+		"9f7b37ce"
+	],
+	tasks: [{
+		uid: "21fe438e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}]
+	}]
+}

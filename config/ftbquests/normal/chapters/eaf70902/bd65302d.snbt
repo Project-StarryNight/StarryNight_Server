@@ -1,0 +1,19 @@
+{
+	title: "{stp.quests.bd65302d.title}",
+	x: 1.5d,
+	y: 2.0d,
+	description: "{stp.quests.bd65302d.description}",
+	text: [
+		"{stp.quests.bd65302d.text.1}"
+	],
+	dependencies: [
+		"e580f143"
+	],
+	tasks: [{
+		uid: "d82efb0c",
+		type: "item",
+		items: [{
+			item: "stp:mechanized_polystar_cylinder"
+		}]
+	}]
+}

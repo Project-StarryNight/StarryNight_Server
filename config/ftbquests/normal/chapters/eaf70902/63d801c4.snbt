@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	description: "{stp.quests.63d801c4.description}",
+	dependencies: [
+		"06a1aa8b"
+	],
+	tasks: [{
+		uid: "56c62ac1",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockprism",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.1ac9ad8a.title}",
+	x: 0.5d,
+	y: -2.0d,
+	description: "{stp.quests.1ac9ad8a.description}",
+	dependencies: [
+		"24659e68"
+	],
+	tasks: [{
+		uid: "5cdeed2b",
+		type: "item",
+		items: [{
+			item: "stp:mechanical_resonance_altar"
+		}]
+	}]
+}

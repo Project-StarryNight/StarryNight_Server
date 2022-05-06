@@ -1,0 +1,18 @@
+{
+	title: "{stp.quests.30aa7239.title}",
+	x: 2.5d,
+	y: 5.0d,
+	description: "{stp.quests.30aa7239.description}",
+	text: [
+		"{stp.quests.30aa7239.text.1}",
+		"{stp.quests.30aa7239.text.2}",
+		"{stp.quests.30aa7239.text.3}"
+	],
+	tasks: [{
+		uid: "63dc9daf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}]
+	}]
+}

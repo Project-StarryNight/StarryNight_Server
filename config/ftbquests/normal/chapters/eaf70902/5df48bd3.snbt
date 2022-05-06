@@ -1,0 +1,25 @@
+{
+	title: "{stp.quests.5df48bd3.title}",
+	x: -1.0d,
+	y: -1.0d,
+	description: "{stp.quests.5df48bd3.description}",
+	text: [
+		"{stp.quests.5df48bd3.text.1}",
+		"{stp.quests.5df48bd3.text.2}"
+	],
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "d3fc0dd5",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

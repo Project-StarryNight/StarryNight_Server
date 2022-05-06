@@ -50,6 +50,15 @@ for i, item in items {
     recipes.remove(item);
 }
 
+var RecipeNames as string[] = [
+"thaumcraft:cinderpearltoblazepowder",
+"thaumcraft:shimmerleaftoquicksilver"
+];
+
+for i, RecipeName in RecipeNames {
+ var RecipeName = RecipeNames[i];
+ recipes.removeByRecipeName(RecipeName);
+}
 //移除奥术工作台合成
 var arcaneItems as IItemStack[] = [
     <thaumcraft:thaumometer>,
@@ -77,13 +86,16 @@ for i, item in arcaneItems {
     Crucible.removeRecipe(<thaumcraft:alumentum>);
 
 //移除奥术注魔合成
-
-    Infusion.removeRecipe(<thaumcraft:elemental_shovel:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_sword:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_pick:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_axe:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_hoe:*>);
-
+var removeInfusionItem as IItemStack[] = [
+    <thaumcraft:elemental_shovel:*>, 
+    <thaumcraft:elemental_sword:*>, 
+    <thaumcraft:elemental_pick:*>, 
+    <thaumcraft:elemental_axe:*>, 
+    <thaumcraft:elemental_hoe:*>
+];
+for removeInfusion in removeInfusionItem{
+    Infusion.removeRecipe(removeInfusion);
+}
 
 recipes.addShaped(<thaumcraft:thaumium_helm>, [
     [<ore:plateThaumium>, <ore:plateThaumium>, <ore:plateThaumium>],
@@ -193,7 +205,7 @@ recipes.addShaped(<thaumcraft:jar_brace> * 4,[
     [<ore:boltWood>, <ore:gtceScrewdrivers>, <ore:boltWood>],
     [<ore:screwBrass>, <ore:boltWood>, <ore:screwBrass>]
     ]);
-recipes.addShaped(<thaumcraft:phial>,[
+recipes.addShaped(<thaumcraft:phial> * 4,[
     [<minecraft:glass_bottle>, <ore:boltRubber>],
     [<thaumcraft:salis_mundus>, <ore:gtceSoftHammers>]
     ]);
@@ -211,10 +223,9 @@ ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]
     ]);
 
-ArcaneWorkbench.registerShapedRecipe("vis_resonator", "UNLOCKAUROMANCY", 100,
+ArcaneWorkbench.registerShapelessRecipe("vis_resonator", "UNLOCKAUROMANCY", 100,
     [<aspect:aer> * 2, <aspect:aqua> * 2], <thaumcraft:vis_resonator>, [
-    [<ore:ringSteel>, <ore:gtceFiles>],
-    [<ore:gtceWrenches>, <ore:gemFlawlessNetherQuartz>]
+    <ore:foilSteel>, <ore:gemFlawlessNetherQuartz>
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("caster_basic", "UNLOCKAUROMANCY", 200,
@@ -270,9 +281,9 @@ ArcaneWorkbench.registerShapedRecipe("condenser", "FLUXCLEANUP", 500,
 
 ArcaneWorkbench.registerShapedRecipe("Filter", "BASEALCHEMY", 30,
     [<aspect:aqua> * 2], <thaumcraft:filter> * 2, [
-    [<ore:screwSteel>, <ore:gtceSaws>, <ore:screwSteel>],
-    [<ore:ringGold>, <thaumcraft:log_silverwood>, <ore:ringGold>],
-    [<ore:screwSteel>,<ore:gtceScrewdrivers>,<ore:screwSteel>]
+    [<ore:springSmallGold>, <ore:foilSteel>, <ore:springSmallGold>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<ore:springSmallGold>,<ore:foilSteel>,<ore:springSmallGold>]
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("MorphicResonator", "BASEALCHEMY", 100,
@@ -481,6 +492,9 @@ Crucible.registerRecipe("alumentum1", "ALUMENTUM",<thaumcraft:alumentum>, <ore:d
 
 Crucible.registerRecipe("nitor", "UNLOCKALCHEMY",<thaumcraft:nitor_yellow>, <ore:plateGlowstone>,
     [<aspect:ignis>*10,<aspect:potentia>*10,<aspect:lux>*10]);
+
+Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <ore:gemNetherQuartz>, 
+    [<aspect:aqua>*5, <aspect:terra>*5]);
 
 //注魔合成
 Infusion.registerRecipe("mirror", "MIRROR", <thaumcraft:mirror>, 4,

@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	description: "{stp.quests.03261804.description}",
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "0cd001e0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialgateway"
+		}]
+	}]
+}

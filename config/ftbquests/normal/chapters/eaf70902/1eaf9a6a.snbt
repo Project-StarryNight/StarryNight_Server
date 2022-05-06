@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.1eaf9a6a.title}",
+	x: 7.5d,
+	y: 0.0d,
+	description: "{stp.quests.1eaf9a6a.description}",
+	dependencies: [
+		"b3309650"
+	],
+	tasks: [{
+		uid: "1ebeab0f",
+		type: "item",
+		items: [{
+			item: "stp:multicolored_assembly_table"
+		}]
+	}]
+}

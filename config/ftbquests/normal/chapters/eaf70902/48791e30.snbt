@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	description: "{stp.quests.48791e30.description}",
+	text: [
+		"{stp.quests.48791e30.text.1}",
+		"{stp.quests.48791e30.text.2}",
+		"{stp.quests.48791e30.text.3}"
+	],
+	dependencies: [
+		"4a9b8d81"
+	],
+	tasks: [{
+		uid: "714b5591",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

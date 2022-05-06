@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	description: "{stp.quests.36adab1b.description}",
+	text: [
+		"{stp.quests.36adab1b.text.1}",
+		"{stp.quests.36adab1b.text.2}"
+	],
+	dependencies: [
+		"101fbf66"
+	],
+	tasks: [{
+		uid: "7e5b3fb0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}]
+}

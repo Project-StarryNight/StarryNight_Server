@@ -28,9 +28,14 @@ var items as IItemStack[] = [
     <thermalfoundation:material:295>,
     <thermalfoundation:material:231>,
     <thermalfoundation:material:103> * 4,
-    <thermalfoundation:upgrade:2>,#信素转换套件
-    <thermalfoundation:upgrade:3>#谐振转换套件
-
+    <thermalfoundation:material:357>,#信素板
+    <thermalfoundation:material:359>,#末影板
+    <thermalfoundation:storage_alloy:5>,#信素锭
+    <thermalfoundation:storage_alloy:7>,#末影锭
+    <thermalfoundation:material:229>,
+    <thermalfoundation:material:293>,
+    <thermalfoundation:material:165>,
+    <thermalfoundation:material:101>
 ];
 
 #循环移除
@@ -40,8 +45,19 @@ for i, item in items {
     JEI.removeAndHide(item,true);
 }
 
+//信素粉
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustCopper> * 3,
+        <ore:dustSilver>
+    ])
+    .fluidInputs(<liquid:redstone> * 1000)
+    .outputs(<gregtech:meta_dust:32099> * 4)
+    .EUt(256)
+    .duration(80)
+    .buildAndRegister();
+
 //末影粉
-recipes.remove(<thermalfoundation:material:103> * 4);
 mixer.recipeBuilder()
     .inputs([
         <ore:dustEnderAlloyAdvanced> * 4,
@@ -93,9 +109,7 @@ var liquidElements as ILiquidStack[] = [
 for i, liquidElement in liquidElements {
     var liquidElement = liquidElements[i];
 extractor.recipeBuilder()
-    .inputs([
-        <thermalfoundation:material>.definition.makeStack(1024 + i)
-    ])
+    .inputs(<thermalfoundation:material>.definition.makeStack(1024 + i))
     .fluidOutputs(liquidElement)
     .duration(100)
     .EUt(32)
@@ -108,6 +122,7 @@ chemical_reactor.recipeBuilder()
         <ore:dustRedstone> * 1
     ])
     .fluidInputs(<liquid:liquid_magic_polymer> * 250)
+    .circuit(i+1)
     .outputs(<thermalfoundation:material>.definition.makeStack(1024 + i))
     .duration(80)
     .EUt(192)
@@ -116,9 +131,7 @@ chemical_reactor.recipeBuilder()
 //循环添加棒磨粉配方
 for i, rodElement in rodElements {
 macerator.recipeBuilder()
-    .inputs([
-        rodElement
-    ])
+    .inputs(rodElement)
     .outputs(dustElements[i] * 4)
     .chancedOutput(dustElements[i] * 1, 5000, 2500)
     .duration(200)

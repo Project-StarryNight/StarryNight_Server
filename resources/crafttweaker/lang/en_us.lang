@@ -10,3 +10,17 @@ magic_naquadah_reactor_tooltip_6=§7Requires §bcoolant §7input.
 naquadah_phaser_controller_tooltip_1=§7A high-tech machine that converts §asilica rock §7into §ahigh-energy fuel§7.
 naquadah_phaser_controller_tooltip_2=§7In addition to this,it can improve existing §ahigh-energy fuels §7by making them more §aefficient in their capacity§7.
 naquadah_phaser_controller_tooltip_3=§7§oA small amount of input,a lot of output,simply the conscience of the industry
+## 星空宇宙培育仓 - Starry Unicerse Cultivation Cabin
+starry_universe_cultivation_cabin_tooltip_1=§7An advanced biotech machinery for breeding powerful creatures.
+starry_universe_cultivation_cabin_tooltip_2=§aSterile culture medium §7is required.
+## 事件提示 - CraftTweaker Event Tips
+events_loggedin_1=Welcome to play StP ModPack,
+events_loggedin_2=StP Offical Discord Link:
+events_loggedin_3=StP ModPack GitHub:
+events_loggedin_4=StP Mcbbs (Chinese Minecraft Bulletin Board System):
+events_loggedin_5=StP Mcmod (Chinese Minecraft Mod Wiki):
+events_loggedin_6=http://discord.gg/a84wcr3jzA
+events_wakeup_1=§6Morning!§f
+events_respawn_1=§cDead Tip:
+events_respawn_2=§cYou Died.
+events_respawn_3=§enumber§f,§cCherish your life.
