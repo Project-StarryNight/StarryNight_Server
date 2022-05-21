@@ -1,6 +1,8 @@
 {
-	x: 2.5d,
-	y: -6.5d,
+	title: "{stp.quests.fe61b527.title}",
+	x: -1.5d,
+	y: -1.5d,
+	description: "{stp.quests.fe61b527.description}",
 	tasks: [{
 		uid: "cf336a12",
 		type: "item",
@@ -13,8 +15,7 @@
 			},
 			ForgeCaps: {
 				Parent: {
-					id: "ore",
-					data: "gtceHardHammers"
+					id: "always_true"
 				}
 			}
 		}],
