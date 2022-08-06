@@ -269,7 +269,14 @@ PureDaisy.addRecipe(<minecraft:sapling>, <thaumcraft:sapling_greatwood>, 30);
 
 //活木
 PureDaisy.removeRecipe(<botania:livingwood>);
-PureDaisy.addRecipe(<thaumcraft:log_greatwood>, <botania:livingwood>, 30);
+var greatWoods as IItemStack[] = [
+    <thaumcraft:log_greatwood:0>,
+    <thaumcraft:log_greatwood:1>,
+    <thaumcraft:log_greatwood:2>
+];
+for greatWood in greatWoods {
+    PureDaisy.addRecipe(greatWood, <botania:livingwood>, 30);
+}
 
 //活木枝
 lathe.recipeBuilder()
@@ -338,7 +345,7 @@ RuneAltar.addRecipe(<botania:rune:1> * 2, [
 ], 10000);
 # 地之符文
 RuneAltar.addRecipe(<botania:rune:2> * 2, [
-    <ore:plateManasteel>, <ore:plateThaumium>, <forestry:crafting_material:6>,
+    <ore:plateManasteel>, <ore:plateThaumium>, <ore:itemBeeswax>,
     <gregtech:meta_item_1:1001>, <gregtech:meta_lens:278>
 ], 10000);
 # 风之符文

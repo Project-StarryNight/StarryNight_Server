@@ -6,7 +6,7 @@ set MiniRAM=6g
 ::最大内存
 set MaxRAM=6g
 ::服务端核心，通常情况下无需更改，除非你需要更换服务端核心
-set Core=CatServer-6eb82ffe-universal.jar
+set Core=CatServer-8d58cdb8-universal.jar
 
 echo 警告，请确保你的 Java 8 是否已安装，如果未安装，则无法启动服务器！
 timeout /t 3
